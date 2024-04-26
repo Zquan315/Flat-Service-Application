@@ -1,0 +1,301 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Threading;
+using System.Windows.Forms;
+using System.Net.Mail;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using System.Net;
+using System.Xml.Linq;
+
+namespace Flat_Services_Application
+{
+    public partial class Login : Form
+    {
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "KR5gPtgHXbYV0t9jMOeKDN3UvRaXulbgAD4aijeN",
+            BasePath = "https://account-ac0cc-default-rtdb.firebaseio.com/"
+        };
+        IFirebaseClient client;
+        public Login()
+        {
+            InitializeComponent();
+        }
+        
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void llbSign_up_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Sign_up s = new Sign_up();
+            s.Show();
+                
+        }
+
+        private async void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (tbPhoneNumber.Text == "")
+                return;
+            if(!rdbtnLessor.Checked && !rdbtnTenant.Checked )
+            {
+                MessageBox.Show("Please choose Tenant or Lessor!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if(rdbtnLessor.Checked)
+            {
+                FirebaseResponse Response = await client.GetAsync("Account Lessor/" + tbPhoneNumber.Text);
+                if (Response.Body == "null")
+                {
+                    lbps1.Text = "Account is not existed";
+                    lbps1.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps1.Text = "";
+                    this.Hide();
+                    ForgotPass forgotPass = new ForgotPass(tbPhoneNumber.Text);
+                    forgotPass.Show();
+                   
+                }
+            }
+               
+            if(rdbtnTenant.Checked)
+            {
+                FirebaseResponse Response = await client.GetAsync("Account Tenant/" + tbPhoneNumber.Text);
+                if (Response.Body == "null")
+                {
+                    lbps1.Text = "Account is not existed";
+                    lbps1.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps1.Text = "";
+                    this.Hide();
+                    ForgotPass forgotPass = new ForgotPass(tbPhoneNumber.Text);
+                    forgotPass.Show();
+                   
+                }
+            }
+               
+             
+            
+        }
+
+        public bool IsNumberPhone(string a)
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == ' ' || (a[i] < '0' && a[i] > '9'))
+                    return false;
+            }
+            if (a.Length < 10 || a.Length > 11)
+                return false;
+            return true;
+        }
+        
+        private async void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (!rdbtnLessor.Checked && !rdbtnTenant.Checked)
+            {
+                MessageBox.Show("Please choose Tenant or Lessor!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (tbPhoneNumber.Text == "" || !IsNumberPhone(tbPhoneNumber.Text))
+            {
+                lbps1.Text = "*";
+                lbps1.ForeColor = Color.Red;
+                return;
+            }
+            if(tbPass.Text == "")
+            {
+                lbps2.Text = "*";
+                lbps2.ForeColor = Color.Red;
+                return;
+            }
+            
+            
+            
+
+            if(rdbtnTenant.Checked)
+            {
+                FirebaseResponse Response = await client.GetAsync("Account Tenant/" + tbPhoneNumber.Text);
+                if (Response.Body == "null")
+                {
+                    lbps1.Text = "Account is not existed";
+                    lbps1.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps1.Text = "";
+
+                }
+                Data obj = Response.ResultAs<Data>();
+
+                //if (cbRemember.Checked)
+                //{
+                //    tbPass.Text = obj.pass;
+                //    tbPass.PasswordChar = '*';
+                //}
+                //else
+                //{
+                //    tbPass.PasswordChar = '\0';
+                //}
+
+                if (tbPass.Text != obj.pass)
+                {
+                    lbps2.Text = "Wrong";
+                    lbps2.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps2.Text = "";
+
+                }
+
+                MessageBox.Show("Enter tenant!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+                //them luong hien thi form login
+            }
+            if(rdbtnLessor.Checked)
+            {
+                FirebaseResponse Response = await client.GetAsync("Account Lessor/" + tbPhoneNumber.Text);
+                if (Response.Body == "null")
+                {
+                    lbps1.Text = "Account is not existed";
+                    lbps1.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps1.Text = "";
+
+                }
+                Data obj = Response.ResultAs<Data>();
+
+                //if (cbRemember.Checked)
+                //{
+                //    tbPass.Text = obj.pass;
+                //    tbPass.PasswordChar = '*';
+                //}
+                //else
+                //{
+                //    tbPass.PasswordChar = '\0';
+                //}
+
+                if (tbPass.Text != obj.pass)
+                {
+                    lbps2.Text = "Wrong";
+                    lbps2.ForeColor = Color.Red;
+                    return;
+                }
+                else
+                {
+                    lbps2.Text = "";
+
+                }
+
+                MessageBox.Show("Enter tenant!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+                //them luong hien thi form login
+            }
+
+
+
+
+        }
+       
+        private void Eye_Click(object sender, EventArgs e)
+        {
+            Hidden.BringToFront();
+            tbPass.PasswordChar = '\0';
+        }
+
+        private void Hidden_Click(object sender, EventArgs e)
+        {
+            Eye.BringToFront();
+            tbPass.PasswordChar = '*';
+        }
+
+        
+        private void cbRemember_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+       
+
+        private void Login_Load_1(object sender, EventArgs e)
+        {
+            client = new FireSharp.FirebaseClient(config);
+
+            if (client == null)
+                MessageBox.Show("Connected isn't Successful!");
+        }
+
+        private void bunifuLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbps1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void phone_tc(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pass_tc(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void tc_number(object sender, EventArgs e)
+        {
+            if (tbPhoneNumber.Text != "")
+                lbps1.Text = "";
+            else
+            {
+                lbps1.Text = "*";
+                lbps1.ForeColor = Color.Red;
+            }
+        }
+
+        private void tc_pass(object sender, EventArgs e)
+        {
+            if (tbPass.Text != "")
+                lbps2.Text = "";
+            else
+            {
+                lbps2.Text = "*";
+                lbps2.ForeColor = Color.Red;
+            }
+        }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
+}

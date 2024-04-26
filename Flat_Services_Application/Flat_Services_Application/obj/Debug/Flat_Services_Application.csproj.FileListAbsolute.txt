@@ -1,0 +1,70 @@
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe.config
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.pdb
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.Licensing.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.AssemblyReference.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Login.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Properties.Resources.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.GenerateResource.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe.licenses
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.CoreCompileInputs.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Ser.BB17834D.Up2Date
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Sign_up.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ChangePass.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ForgorPass.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project_FlatService_App\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.JoinFlat.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe.config
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.pdb
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.Licensing.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.AssemblyReference.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ChangePass.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ForgorPass.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Login.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Properties.Resources.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Sign_up.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.GenerateResource.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe.licenses
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.CoreCompileInputs.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Ser.BB17834D.Up2Date
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\New folder\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe.config
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.exe
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Flat_Services_Application.pdb
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\FireSharp.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Microsoft.Threading.Tasks.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Newtonsoft.Json.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\System.Net.Http.Extensions.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\System.Net.Http.Primitives.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.Licensing.dll
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Bunifu.UI.WinForms.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Microsoft.Threading.Tasks.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\Newtonsoft.Json.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\System.Net.Http.Extensions.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\bin\Debug\System.Net.Http.Primitives.xml
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.App.config
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.AssemblyReference.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ChangePass.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Login.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Properties.Resources.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Sign_up.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.GenerateResource.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe.licenses
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.CoreCompileInputs.cache
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Ser.BB17834D.Up2Date
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.changePass_forgot.resources
+Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\Project\Flat-Services-App\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ForgotPass.resources
