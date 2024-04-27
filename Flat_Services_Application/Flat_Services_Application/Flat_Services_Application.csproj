@@ -105,6 +105,12 @@
     <Compile Include="Sign-up.Designer.cs">
       <DependentUpon>Sign-up.cs</DependentUpon>
     </Compile>
+    <Compile Include="tenant\homechating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant\homechating.Designer.cs">
+      <DependentUpon>homechating.cs</DependentUpon>
+    </Compile>
     <Compile Include="tenant\homecostsing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     <EmbeddedResource Include="Sign-up.resx">
       <DependentUpon>Sign-up.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tenant\homechating.resx">
+      <DependentUpon>homechating.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tenant\homecostsing.resx">
       <DependentUpon>homecostsing.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,9 +189,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="tenant\homechating\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
