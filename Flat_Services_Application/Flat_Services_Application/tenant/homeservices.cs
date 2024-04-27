@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Flat_Services_Application.tenant
 {
-    public partial class homeinfo : Form
+    public partial class homeservices : Form
     {
-        public homeinfo()
+        public homeservices()
         {
             InitializeComponent();
         }

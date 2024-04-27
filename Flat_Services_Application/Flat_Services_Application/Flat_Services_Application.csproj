@@ -105,17 +105,29 @@
     <Compile Include="Sign-up.Designer.cs">
       <DependentUpon>Sign-up.cs</DependentUpon>
     </Compile>
-    <Compile Include="tenant\homeinfo.cs">
+    <Compile Include="tenant\homecostsing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="tenant\homeinfo.Designer.cs">
-      <DependentUpon>homeinfo.cs</DependentUpon>
+    <Compile Include="tenant\homecostsing.Designer.cs">
+      <DependentUpon>homecostsing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tenant\homeinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant\homeinformation.Designer.cs">
+      <DependentUpon>homeinformation.cs</DependentUpon>
     </Compile>
     <Compile Include="tenant\homenavigation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="tenant\homenavigation.Designer.cs">
       <DependentUpon>homenavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tenant\homeservices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant\homeservices.Designer.cs">
+      <DependentUpon>homeservices.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ChangePass.resx">
       <DependentUpon>ChangePass.cs</DependentUpon>
@@ -142,8 +154,17 @@
     <EmbeddedResource Include="Sign-up.resx">
       <DependentUpon>Sign-up.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tenant\homecostsing.resx">
+      <DependentUpon>homecostsing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tenant\homeinformation.resx">
+      <DependentUpon>homeinformation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tenant\homenavigation.resx">
       <DependentUpon>homenavigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tenant\homeservices.resx">
+      <DependentUpon>homeservices.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -158,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tenant\homechating\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />

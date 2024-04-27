@@ -1,6 +1,6 @@
 ﻿namespace Flat_Services_Application.tenant
 {
-    partial class homenavigation
+    partial class homeservices
     {
         /// <summary>
         /// Required designer variable.
@@ -28,22 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panelCenter = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.logoutBtn = new System.Windows.Forms.Button();
             this.chatBtn = new System.Windows.Forms.Button();
             this.servicesBtn = new System.Windows.Forms.Button();
             this.infoBtn = new System.Windows.Forms.Button();
             this.costsBtn = new System.Windows.Forms.Button();
             this.homeBtn = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panelCenter = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panelCenter.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panelCenter
+            // 
+            this.panelCenter.BackColor = System.Drawing.Color.White;
+            this.panelCenter.Controls.Add(this.panel1);
+            this.panelCenter.Controls.Add(this.panel2);
+            this.panelCenter.Controls.Add(this.panel3);
+            this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCenter.Location = new System.Drawing.Point(0, 0);
+            this.panelCenter.Name = "panelCenter";
+            this.panelCenter.Size = new System.Drawing.Size(1774, 1029);
+            this.panelCenter.TabIndex = 7;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(360, 160);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1414, 869);
+            this.panel1.TabIndex = 9;
             // 
             // panel2
             // 
@@ -52,8 +75,7 @@
             this.panel2.Location = new System.Drawing.Point(360, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1414, 160);
-            this.panel2.TabIndex = 5;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.panel2.TabIndex = 8;
             // 
             // panel4
             // 
@@ -64,7 +86,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1414, 160);
             this.panel4.TabIndex = 0;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // label1
             // 
@@ -76,24 +97,22 @@
             this.label1.Size = new System.Drawing.Size(0, 70);
             this.label1.TabIndex = 0;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // panel1
+            // panel3
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.panel1.Controls.Add(this.logoutBtn);
-            this.panel1.Controls.Add(this.chatBtn);
-            this.panel1.Controls.Add(this.servicesBtn);
-            this.panel1.Controls.Add(this.infoBtn);
-            this.panel1.Controls.Add(this.costsBtn);
-            this.panel1.Controls.Add(this.homeBtn);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 1029);
-            this.panel1.TabIndex = 4;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel3.Controls.Add(this.logoutBtn);
+            this.panel3.Controls.Add(this.chatBtn);
+            this.panel3.Controls.Add(this.servicesBtn);
+            this.panel3.Controls.Add(this.infoBtn);
+            this.panel3.Controls.Add(this.costsBtn);
+            this.panel3.Controls.Add(this.homeBtn);
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(360, 1029);
+            this.panel3.TabIndex = 7;
             // 
             // logoutBtn
             // 
@@ -105,7 +124,6 @@
             this.logoutBtn.TabIndex = 6;
             this.logoutBtn.Text = "Log Out";
             this.logoutBtn.UseVisualStyleBackColor = true;
-            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
             // chatBtn
             // 
@@ -118,7 +136,6 @@
             this.chatBtn.Text = "Chat";
             this.chatBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.chatBtn.UseVisualStyleBackColor = true;
-            this.chatBtn.Click += new System.EventHandler(this.chatBtn_Click);
             // 
             // servicesBtn
             // 
@@ -131,7 +148,6 @@
             this.servicesBtn.Text = "Services";
             this.servicesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.servicesBtn.UseVisualStyleBackColor = true;
-            this.servicesBtn.Click += new System.EventHandler(this.servicesBtn_Click);
             // 
             // infoBtn
             // 
@@ -144,7 +160,6 @@
             this.infoBtn.Text = "Info";
             this.infoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.infoBtn.UseVisualStyleBackColor = true;
-            this.infoBtn.Click += new System.EventHandler(this.infoBtn_Click);
             // 
             // costsBtn
             // 
@@ -157,7 +172,6 @@
             this.costsBtn.Text = "Costs";
             this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.costsBtn.UseVisualStyleBackColor = true;
-            this.costsBtn.Click += new System.EventHandler(this.costsBtn_Click);
             // 
             // homeBtn
             // 
@@ -171,59 +185,47 @@
             this.homeBtn.Text = "Home";
             this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.homeBtn.UseVisualStyleBackColor = false;
-            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
             // 
-            // panel3
+            // panel5
             // 
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(360, 160);
-            this.panel3.TabIndex = 0;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(360, 160);
+            this.panel5.TabIndex = 0;
             // 
-            // panelCenter
-            // 
-            this.panelCenter.BackColor = System.Drawing.Color.White;
-            this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCenter.Location = new System.Drawing.Point(360, 160);
-            this.panelCenter.Name = "panelCenter";
-            this.panelCenter.Size = new System.Drawing.Size(1414, 869);
-            this.panelCenter.TabIndex = 6;
-            this.panelCenter.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
-            // 
-            // homenavigation
+            // homeservices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1774, 1029);
             this.Controls.Add(this.panelCenter);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Name = "homenavigation";
-            this.Text = "homenavigation";
+            this.Name = "homeservices";
+            this.Text = "homeservices";
+            this.panelCenter.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Panel panelCenter;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button logoutBtn;
         private System.Windows.Forms.Button chatBtn;
         private System.Windows.Forms.Button servicesBtn;
         private System.Windows.Forms.Button infoBtn;
         private System.Windows.Forms.Button costsBtn;
         private System.Windows.Forms.Button homeBtn;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panelCenter;
+        private System.Windows.Forms.Panel panel5;
     }
 }
