@@ -105,6 +105,18 @@
     <Compile Include="Sign-up.Designer.cs">
       <DependentUpon>Sign-up.cs</DependentUpon>
     </Compile>
+    <Compile Include="tenant\homeinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant\homeinfo.Designer.cs">
+      <DependentUpon>homeinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tenant\homenavigation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant\homenavigation.Designer.cs">
+      <DependentUpon>homenavigation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ChangePass.resx">
       <DependentUpon>ChangePass.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +141,9 @@
     </Compile>
     <EmbeddedResource Include="Sign-up.resx">
       <DependentUpon>Sign-up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tenant\homenavigation.resx">
+      <DependentUpon>homenavigation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
