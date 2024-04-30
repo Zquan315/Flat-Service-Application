@@ -188,6 +188,7 @@
             // 
             // panel5
             // 
+            this.panel5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);

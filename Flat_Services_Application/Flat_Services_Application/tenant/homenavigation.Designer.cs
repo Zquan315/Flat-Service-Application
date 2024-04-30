@@ -40,9 +40,11 @@
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelCenter = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -176,6 +178,7 @@
             // panel3
             // 
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.panel5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
@@ -193,6 +196,16 @@
             this.panelCenter.TabIndex = 6;
             this.panelCenter.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
             // 
+            // panel5
+            // 
+            this.panel5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(360, 160);
+            this.panel5.TabIndex = 1;
+            // 
             // homenavigation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -207,6 +220,7 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -225,5 +239,6 @@
         private System.Windows.Forms.Button homeBtn;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panelCenter;
+        private System.Windows.Forms.Panel panel5;
     }
 }

@@ -30,9 +30,6 @@
         {
             this.panelCenter = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -69,14 +66,15 @@
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panelCenter.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCenter
@@ -93,7 +91,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.groupBox3);
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.textBox9);
@@ -108,6 +106,7 @@
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(18, 279);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1122, 563);
@@ -115,37 +114,9 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Account";
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.textBox10);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Location = new System.Drawing.Point(743, 166);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(351, 355);
-            this.groupBox3.TabIndex = 15;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Your Money";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(13, 96);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(270, 32);
-            this.textBox10.TabIndex = 16;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(6, 55);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(185, 38);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Remainder";
-            // 
             // button3
             // 
+            this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(556, 198);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(144, 45);
@@ -194,6 +165,7 @@
             // 
             // button2
             // 
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(556, 128);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(144, 45);
@@ -203,6 +175,7 @@
             // 
             // button1
             // 
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(556, 63);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 45);
@@ -266,6 +239,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.textBox3);
@@ -277,6 +251,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(18, 28);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1122, 212);
@@ -504,6 +479,7 @@
             // panel3
             // 
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.panel5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
@@ -512,6 +488,8 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackgroundImage = global::Flat_Services_Application.Properties.Resources.hinh_anh_mau_bandroll_khai_truong_034110310;
+            this.groupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox4.Location = new System.Drawing.Point(1159, 28);
             this.groupBox4.Name = "groupBox4";
@@ -519,6 +497,16 @@
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Advertising";
+            // 
+            // panel5
+            // 
+            this.panel5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(360, 160);
+            this.panel5.TabIndex = 1;
             // 
             // homecostsing
             // 
@@ -533,8 +521,6 @@
             this.panelCenter.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -542,6 +528,7 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -585,9 +572,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Panel panel5;
     }
 }
