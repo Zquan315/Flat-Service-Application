@@ -16,5 +16,10 @@ namespace Flat_Services_Application.lessor
         {
             InitializeComponent();
         }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
