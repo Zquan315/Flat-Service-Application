@@ -341,6 +341,12 @@
   <ItemGroup>
     <None Include="Resources\Icon1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\436766686_756051336663575_1778345745258630373_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\436766686_756051336663575_1778345745258630373_n1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">

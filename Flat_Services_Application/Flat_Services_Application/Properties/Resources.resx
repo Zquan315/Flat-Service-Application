@@ -124,7 +124,13 @@
   <data name="hinh-anh-mau-bandroll-khai-truong_034110310" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hinh-anh-mau-bandroll-khai-truong_034110310.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="436766686_756051336663575_1778345745258630373_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\436766686_756051336663575_1778345745258630373_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="436766686_756051336663575_1778345745258630373_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\436766686_756051336663575_1778345745258630373_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

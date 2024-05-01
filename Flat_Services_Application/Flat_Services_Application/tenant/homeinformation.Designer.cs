@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panelCenter = new System.Windows.Forms.Panel();
+            this.panelCenterInformation = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -58,8 +58,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.logoutBtn = new System.Windows.Forms.Button();
             this.chatBtn = new System.Windows.Forms.Button();
             this.servicesBtn = new System.Windows.Forms.Button();
@@ -67,10 +69,9 @@
             this.costsBtn = new System.Windows.Forms.Button();
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panelCenter.SuspendLayout();
+            this.panelCenterInformation.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -82,16 +83,16 @@
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panelCenter
+            // panelCenterInformation
             // 
-            this.panelCenter.BackColor = System.Drawing.Color.White;
-            this.panelCenter.Controls.Add(this.groupBox1);
-            this.panelCenter.Controls.Add(this.panel5);
-            this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCenter.Location = new System.Drawing.Point(360, 160);
-            this.panelCenter.Name = "panelCenter";
-            this.panelCenter.Size = new System.Drawing.Size(1414, 869);
-            this.panelCenter.TabIndex = 9;
+            this.panelCenterInformation.BackColor = System.Drawing.Color.White;
+            this.panelCenterInformation.Controls.Add(this.groupBox1);
+            this.panelCenterInformation.Controls.Add(this.panel5);
+            this.panelCenterInformation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCenterInformation.Location = new System.Drawing.Point(360, 160);
+            this.panelCenterInformation.Name = "panelCenterInformation";
+            this.panelCenterInformation.Size = new System.Drawing.Size(1414, 869);
+            this.panelCenterInformation.TabIndex = 9;
             // 
             // groupBox1
             // 
@@ -99,9 +100,9 @@
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(18, 425);
+            this.groupBox1.Location = new System.Drawing.Point(18, 414);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1362, 417);
+            this.groupBox1.Size = new System.Drawing.Size(1362, 428);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Information";
@@ -145,7 +146,7 @@
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(9, 279);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(476, 33);
+            this.dateTimePicker1.Size = new System.Drawing.Size(548, 33);
             this.dateTimePicker1.TabIndex = 3;
             // 
             // label3
@@ -226,7 +227,7 @@
             this.textBox5.Location = new System.Drawing.Point(161, 27);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(266, 38);
+            this.textBox5.Size = new System.Drawing.Size(394, 38);
             this.textBox5.TabIndex = 19;
             // 
             // label5
@@ -257,7 +258,7 @@
             this.textBox2.Location = new System.Drawing.Point(137, 168);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(418, 147);
+            this.textBox2.Size = new System.Drawing.Size(418, 159);
             this.textBox2.TabIndex = 8;
             // 
             // label9
@@ -277,14 +278,15 @@
             this.textBox4.Location = new System.Drawing.Point(221, 111);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(206, 38);
+            this.textBox4.Size = new System.Drawing.Size(334, 38);
             this.textBox4.TabIndex = 12;
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.button5);
             this.panel7.Controls.Add(this.button3);
-            this.panel7.Controls.Add(this.button2);
             this.panel7.Controls.Add(this.button1);
+            this.panel7.Controls.Add(this.button2);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel7.Location = new System.Drawing.Point(1156, 0);
             this.panel7.Name = "panel7";
@@ -296,7 +298,7 @@
             this.button3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(18, 251);
+            this.button3.Location = new System.Drawing.Point(18, 185);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(176, 64);
             this.button3.TabIndex = 2;
@@ -308,7 +310,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(18, 47);
+            this.button2.Location = new System.Drawing.Point(18, 101);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(176, 69);
             this.button2.TabIndex = 1;
@@ -320,7 +322,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(18, 143);
+            this.button1.Location = new System.Drawing.Point(18, 19);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 68);
             this.button1.TabIndex = 0;
@@ -333,7 +335,7 @@
             this.textBox3.Location = new System.Drawing.Point(167, 78);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(318, 38);
+            this.textBox3.Size = new System.Drawing.Size(390, 38);
             this.textBox3.TabIndex = 10;
             // 
             // label6
@@ -388,7 +390,7 @@
             this.textBox1.Location = new System.Drawing.Point(111, 27);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(374, 38);
+            this.textBox1.Size = new System.Drawing.Size(446, 38);
             this.textBox1.TabIndex = 1;
             // 
             // label2
@@ -422,6 +424,18 @@
             this.panel4.Size = new System.Drawing.Size(1414, 160);
             this.panel4.TabIndex = 0;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(3, 42);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(370, 70);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "Information";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -449,6 +463,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(360, 1029);
             this.panel1.TabIndex = 7;
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(0, 760);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(360, 120);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Differ Fee";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // logoutBtn
             // 
@@ -532,6 +558,18 @@
             this.panel3.Size = new System.Drawing.Size(360, 160);
             this.panel3.TabIndex = 0;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(18, 265);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(176, 64);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "Help?";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // panel6
             // 
             this.panel6.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
@@ -542,41 +580,17 @@
             this.panel6.Size = new System.Drawing.Size(360, 160);
             this.panel6.TabIndex = 1;
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(3, 42);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(370, 70);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "Information";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
-            // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(0, 760);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(360, 120);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Differ Fee";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // homeinformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1774, 1029);
-            this.Controls.Add(this.panelCenter);
+            this.Controls.Add(this.panelCenterInformation);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "homeinformation";
             this.Text = "homeinformation";
-            this.panelCenter.ResumeLayout(false);
+            this.panelCenterInformation.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel5.ResumeLayout(false);
@@ -595,7 +609,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panelCenter;
+        private System.Windows.Forms.Panel panelCenterInformation;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label1;
@@ -637,5 +651,6 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

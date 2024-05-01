@@ -30,11 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.panelCenterChat = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.panelCenterOption = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -45,8 +45,10 @@
             this.panelCenter = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.logoutBtn = new System.Windows.Forms.Button();
             this.chatBtn = new System.Windows.Forms.Button();
             this.servicesBtn = new System.Windows.Forms.Button();
@@ -54,15 +56,13 @@
             this.costsBtn = new System.Windows.Forms.Button();
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.label2 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.panelCenterChat.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.panelCenterOption.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panelCenter.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -74,23 +74,23 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.panel8);
-            this.panel1.Controls.Add(this.panel7);
+            this.panel1.Controls.Add(this.panelCenterChat);
+            this.panel1.Controls.Add(this.panelCenterOption);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(360, 160);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1414, 869);
             this.panel1.TabIndex = 9;
             // 
-            // panel8
+            // panelCenterChat
             // 
-            this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Controls.Add(this.groupBox1);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1014, 869);
-            this.panel8.TabIndex = 1;
+            this.panelCenterChat.BackColor = System.Drawing.Color.White;
+            this.panelCenterChat.Controls.Add(this.groupBox1);
+            this.panelCenterChat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCenterChat.Location = new System.Drawing.Point(0, 0);
+            this.panelCenterChat.Name = "panelCenterChat";
+            this.panelCenterChat.Size = new System.Drawing.Size(1014, 869);
+            this.panelCenterChat.TabIndex = 1;
             // 
             // groupBox1
             // 
@@ -125,16 +125,16 @@
             this.textBox1.Size = new System.Drawing.Size(965, 791);
             this.textBox1.TabIndex = 0;
             // 
-            // panel7
+            // panelCenterOption
             // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.groupBox3);
-            this.panel7.Controls.Add(this.groupBox2);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(1014, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(400, 869);
-            this.panel7.TabIndex = 0;
+            this.panelCenterOption.BackColor = System.Drawing.Color.White;
+            this.panelCenterOption.Controls.Add(this.groupBox3);
+            this.panelCenterOption.Controls.Add(this.groupBox2);
+            this.panelCenterOption.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelCenterOption.Location = new System.Drawing.Point(1014, 0);
+            this.panelCenterOption.Name = "panelCenterOption";
+            this.panelCenterOption.Size = new System.Drawing.Size(400, 869);
+            this.panelCenterOption.TabIndex = 0;
             // 
             // groupBox3
             // 
@@ -251,6 +251,18 @@
             this.panel4.Size = new System.Drawing.Size(1414, 160);
             this.panel4.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(3, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(283, 70);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Chatting";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -278,6 +290,18 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(360, 1029);
             this.panel3.TabIndex = 7;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(0, 760);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(360, 120);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Differ Fee";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // logoutBtn
             // 
@@ -362,6 +386,16 @@
             this.panel5.Size = new System.Drawing.Size(360, 160);
             this.panel5.TabIndex = 0;
             // 
+            // panel9
+            // 
+            this.panel9.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
+            this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(360, 160);
+            this.panel9.TabIndex = 1;
+            // 
             // panel6
             // 
             this.panel6.Location = new System.Drawing.Point(360, 160);
@@ -375,40 +409,6 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(283, 70);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Chatting";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(0, 760);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(360, 120);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Differ Fee";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // panel9
-            // 
-            this.panel9.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
-            this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(360, 160);
-            this.panel9.TabIndex = 1;
-            // 
             // homechating
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -418,10 +418,10 @@
             this.Name = "homechating";
             this.Text = "homechating";
             this.panel1.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
+            this.panelCenterChat.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel7.ResumeLayout(false);
+            this.panelCenterOption.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.panelCenter.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -448,8 +448,8 @@
         private System.Windows.Forms.Button costsBtn;
         private System.Windows.Forms.Button homeBtn;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panelCenterChat;
+        private System.Windows.Forms.Panel panelCenterOption;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;

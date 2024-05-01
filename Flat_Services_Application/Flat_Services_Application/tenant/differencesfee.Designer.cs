@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelCenter = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.logoutBtn = new System.Windows.Forms.Button();
             this.chatBtn = new System.Windows.Forms.Button();
@@ -36,20 +37,19 @@
             this.infoBtn = new System.Windows.Forms.Button();
             this.costsBtn = new System.Windows.Forms.Button();
             this.homeBtn = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelCenterDifferFee = new System.Windows.Forms.Panel();
             this.panelCenter.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCenter
@@ -57,12 +57,28 @@
             this.panelCenter.BackColor = System.Drawing.Color.White;
             this.panelCenter.Controls.Add(this.panel1);
             this.panelCenter.Controls.Add(this.panel2);
-            this.panelCenter.Controls.Add(this.panel7);
+            this.panelCenter.Controls.Add(this.panelCenterDifferFee);
             this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenter.Location = new System.Drawing.Point(0, 0);
             this.panelCenter.Name = "panelCenter";
             this.panelCenter.Size = new System.Drawing.Size(1774, 1029);
             this.panelCenter.TabIndex = 7;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.logoutBtn);
+            this.panel1.Controls.Add(this.chatBtn);
+            this.panel1.Controls.Add(this.servicesBtn);
+            this.panel1.Controls.Add(this.infoBtn);
+            this.panel1.Controls.Add(this.costsBtn);
+            this.panel1.Controls.Add(this.homeBtn);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 160);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(360, 869);
+            this.panel1.TabIndex = 7;
             // 
             // button1
             // 
@@ -148,16 +164,25 @@
             this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.homeBtn.UseVisualStyleBackColor = false;
             // 
-            // label11
+            // panel2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(374, 42);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(316, 70);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "Differ Fee";
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1774, 160);
+            this.panel2.TabIndex = 8;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel4.Controls.Add(this.panel6);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1774, 160);
+            this.panel4.TabIndex = 0;
             // 
             // panel6
             // 
@@ -171,6 +196,26 @@
             this.panel6.Size = new System.Drawing.Size(1774, 160);
             this.panel6.TabIndex = 1;
             // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon1;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(360, 160);
+            this.panel3.TabIndex = 4;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(374, 42);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(316, 70);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "Differ Fee";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -181,22 +226,6 @@
             this.label2.Size = new System.Drawing.Size(0, 70);
             this.label2.TabIndex = 0;
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.logoutBtn);
-            this.panel1.Controls.Add(this.chatBtn);
-            this.panel1.Controls.Add(this.servicesBtn);
-            this.panel1.Controls.Add(this.infoBtn);
-            this.panel1.Controls.Add(this.costsBtn);
-            this.panel1.Controls.Add(this.homeBtn);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 160);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 869);
-            this.panel1.TabIndex = 7;
             // 
             // label1
             // 
@@ -209,43 +238,14 @@
             this.label1.TabIndex = 0;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel4
+            // panelCenterDifferFee
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.panel4.Controls.Add(this.panel6);
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1774, 160);
-            this.panel4.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1774, 160);
-            this.panel2.TabIndex = 8;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1774, 1029);
-            this.panel7.TabIndex = 9;
-            // 
-            // panel3
-            // 
-            this.panel3.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon1;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(360, 160);
-            this.panel3.TabIndex = 4;
+            this.panelCenterDifferFee.BackColor = System.Drawing.Color.White;
+            this.panelCenterDifferFee.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCenterDifferFee.Location = new System.Drawing.Point(0, 0);
+            this.panelCenterDifferFee.Name = "panelCenterDifferFee";
+            this.panelCenterDifferFee.Size = new System.Drawing.Size(1774, 1029);
+            this.panelCenterDifferFee.TabIndex = 9;
             // 
             // differencesfee
             // 
@@ -256,12 +256,12 @@
             this.Name = "differencesfee";
             this.Text = "differencesfee";
             this.panelCenter.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel2.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -283,7 +283,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panelCenterDifferFee;
         private System.Windows.Forms.Panel panel3;
     }
 }

@@ -30,28 +30,31 @@
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panelCenter = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.homeBtn = new System.Windows.Forms.Button();
+            this.logoutBtn = new System.Windows.Forms.Button();
             this.chatBtn = new System.Windows.Forms.Button();
             this.servicesBtn = new System.Windows.Forms.Button();
-            this.costsBtn = new System.Windows.Forms.Button();
-            this.logoutBtn = new System.Windows.Forms.Button();
             this.infoBtn = new System.Windows.Forms.Button();
+            this.costsBtn = new System.Windows.Forms.Button();
+            this.homeBtn = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panelCenterHome = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panelCenter.SuspendLayout();
-            this.panel6.SuspendLayout();
+            this.panelCenterHome.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -75,6 +78,40 @@
             this.panel4.Size = new System.Drawing.Size(1414, 160);
             this.panel4.TabIndex = 0;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel6.Controls.Add(this.label11);
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1414, 160);
+            this.panel6.TabIndex = 1;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(6, 42);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(195, 70);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "Home";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(6, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 70);
+            this.label2.TabIndex = 0;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -106,62 +143,6 @@
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // panel3
-            // 
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(360, 160);
-            this.panel3.TabIndex = 0;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // panelCenter
-            // 
-            this.panelCenter.BackColor = System.Drawing.Color.White;
-            this.panelCenter.Controls.Add(this.groupBox1);
-            this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCenter.Location = new System.Drawing.Point(360, 160);
-            this.panelCenter.Name = "panelCenter";
-            this.panelCenter.Size = new System.Drawing.Size(1414, 869);
-            this.panelCenter.TabIndex = 6;
-            this.panelCenter.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.panel6.Controls.Add(this.label11);
-            this.panel6.Controls.Add(this.label2);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1414, 160);
-            this.panel6.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 70);
-            this.label2.TabIndex = 0;
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(6, 42);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(195, 70);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "Home";
-            // 
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -174,19 +155,17 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // homeBtn
+            // logoutBtn
             // 
-            this.homeBtn.BackColor = System.Drawing.Color.White;
-            this.homeBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homeBtn.Location = new System.Drawing.Point(0, 160);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Size = new System.Drawing.Size(360, 120);
-            this.homeBtn.TabIndex = 1;
-            this.homeBtn.Text = "Home";
-            this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.homeBtn.UseVisualStyleBackColor = false;
-            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
+            this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.logoutBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.Location = new System.Drawing.Point(0, 909);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Size = new System.Drawing.Size(360, 120);
+            this.logoutBtn.TabIndex = 6;
+            this.logoutBtn.Text = "Log Out";
+            this.logoutBtn.UseVisualStyleBackColor = true;
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
             // chatBtn
             // 
@@ -214,31 +193,6 @@
             this.servicesBtn.UseVisualStyleBackColor = true;
             this.servicesBtn.Click += new System.EventHandler(this.servicesBtn_Click);
             // 
-            // costsBtn
-            // 
-            this.costsBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.costsBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.costsBtn.Location = new System.Drawing.Point(0, 280);
-            this.costsBtn.Name = "costsBtn";
-            this.costsBtn.Size = new System.Drawing.Size(360, 120);
-            this.costsBtn.TabIndex = 2;
-            this.costsBtn.Text = "Costs Fee";
-            this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.costsBtn.UseVisualStyleBackColor = true;
-            this.costsBtn.Click += new System.EventHandler(this.costsBtn_Click);
-            // 
-            // logoutBtn
-            // 
-            this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.logoutBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.Location = new System.Drawing.Point(0, 909);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(360, 120);
-            this.logoutBtn.TabIndex = 6;
-            this.logoutBtn.Text = "Log Out";
-            this.logoutBtn.UseVisualStyleBackColor = true;
-            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
-            // 
             // infoBtn
             // 
             this.infoBtn.Dock = System.Windows.Forms.DockStyle.Top;
@@ -252,6 +206,44 @@
             this.infoBtn.UseVisualStyleBackColor = true;
             this.infoBtn.Click += new System.EventHandler(this.infoBtn_Click);
             // 
+            // costsBtn
+            // 
+            this.costsBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.costsBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.costsBtn.Location = new System.Drawing.Point(0, 280);
+            this.costsBtn.Name = "costsBtn";
+            this.costsBtn.Size = new System.Drawing.Size(360, 120);
+            this.costsBtn.TabIndex = 2;
+            this.costsBtn.Text = "Costs Fee";
+            this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.costsBtn.UseVisualStyleBackColor = true;
+            this.costsBtn.Click += new System.EventHandler(this.costsBtn_Click);
+            // 
+            // homeBtn
+            // 
+            this.homeBtn.BackColor = System.Drawing.Color.White;
+            this.homeBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homeBtn.Location = new System.Drawing.Point(0, 160);
+            this.homeBtn.Name = "homeBtn";
+            this.homeBtn.Size = new System.Drawing.Size(360, 120);
+            this.homeBtn.TabIndex = 1;
+            this.homeBtn.Text = "Home";
+            this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.homeBtn.UseVisualStyleBackColor = false;
+            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(360, 160);
+            this.panel3.TabIndex = 0;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
             // panel5
             // 
             this.panel5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
@@ -262,23 +254,54 @@
             this.panel5.Size = new System.Drawing.Size(360, 160);
             this.panel5.TabIndex = 1;
             // 
+            // panelCenterHome
+            // 
+            this.panelCenterHome.BackColor = System.Drawing.Color.White;
+            this.panelCenterHome.Controls.Add(this.groupBox1);
+            this.panelCenterHome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCenterHome.Location = new System.Drawing.Point(360, 160);
+            this.panelCenterHome.Name = "panelCenterHome";
+            this.panelCenterHome.Size = new System.Drawing.Size(1414, 869);
+            this.panelCenterHome.TabIndex = 6;
+            this.panelCenterHome.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
+            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(1036, 723);
+            this.groupBox1.Location = new System.Drawing.Point(971, 702);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(366, 134);
+            this.groupBox1.Size = new System.Drawing.Size(431, 155);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Report App";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(359, 32);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Write your report about us:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 73);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(419, 76);
+            this.textBox1.TabIndex = 1;
             // 
             // homenavigation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1774, 1029);
-            this.Controls.Add(this.panelCenter);
+            this.Controls.Add(this.panelCenterHome);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "homenavigation";
@@ -286,11 +309,13 @@
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panelCenter.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panelCenterHome.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -302,7 +327,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panelCenter;
+        private System.Windows.Forms.Panel panelCenterHome;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label2;
@@ -315,5 +340,7 @@
         private System.Windows.Forms.Button costsBtn;
         private System.Windows.Forms.Button homeBtn;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

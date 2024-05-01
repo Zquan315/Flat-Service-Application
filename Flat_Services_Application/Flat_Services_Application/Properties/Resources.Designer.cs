@@ -63,6 +63,26 @@ namespace Flat_Services_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _436766686_756051336663575_1778345745258630373_n {
+            get {
+                object obj = ResourceManager.GetObject("436766686_756051336663575_1778345745258630373_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _436766686_756051336663575_1778345745258630373_n1 {
+            get {
+                object obj = ResourceManager.GetObject("436766686_756051336663575_1778345745258630373_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hinh_anh_mau_bandroll_khai_truong_034110310 {
             get {
                 object obj = ResourceManager.GetObject("hinh-anh-mau-bandroll-khai-truong_034110310", resourceCulture);
