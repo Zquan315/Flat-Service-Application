@@ -31,6 +31,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,17 +47,18 @@
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panelCenterHome = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panelCenterHome = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panelCenterHome.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panelCenterHome.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -82,6 +86,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel6.Controls.Add(this.panel7);
             this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
@@ -89,6 +94,30 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1414, 160);
             this.panel6.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.comboBox1);
+            this.panel7.Controls.Add(this.textBox2);
+            this.panel7.Location = new System.Drawing.Point(983, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(428, 151);
+            this.panel7.TabIndex = 4;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(180, 55);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 33);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(180, 9);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(233, 31);
+            this.textBox2.TabIndex = 0;
             // 
             // label11
             // 
@@ -154,6 +183,7 @@
             this.button1.Text = "Differ Fee";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // logoutBtn
             // 
@@ -253,17 +283,8 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(360, 160);
             this.panel5.TabIndex = 1;
-            // 
-            // panelCenterHome
-            // 
-            this.panelCenterHome.BackColor = System.Drawing.Color.White;
-            this.panelCenterHome.Controls.Add(this.groupBox1);
-            this.panelCenterHome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCenterHome.Location = new System.Drawing.Point(360, 160);
-            this.panelCenterHome.Name = "panelCenterHome";
-            this.panelCenterHome.Size = new System.Drawing.Size(1414, 869);
-            this.panelCenterHome.TabIndex = 6;
-            this.panelCenterHome.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // groupBox1
             // 
@@ -279,14 +300,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Report App";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(6, 73);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(419, 76);
-            this.textBox1.TabIndex = 1;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -295,6 +308,25 @@
             this.label3.Size = new System.Drawing.Size(359, 32);
             this.label3.TabIndex = 0;
             this.label3.Text = "Write your report about us:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 73);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(419, 76);
+            this.textBox1.TabIndex = 1;
+            // 
+            // panelCenterHome
+            // 
+            this.panelCenterHome.BackColor = System.Drawing.Color.White;
+            this.panelCenterHome.Controls.Add(this.groupBox1);
+            this.panelCenterHome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCenterHome.Location = new System.Drawing.Point(360, 160);
+            this.panelCenterHome.Name = "panelCenterHome";
+            this.panelCenterHome.Size = new System.Drawing.Size(1414, 869);
+            this.panelCenterHome.TabIndex = 6;
+            this.panelCenterHome.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
             // 
             // homenavigation
             // 
@@ -312,11 +344,13 @@
             this.panel4.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panelCenterHome.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panelCenterHome.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -328,7 +362,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panelCenterHome;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label2;
@@ -340,8 +373,12 @@
         private System.Windows.Forms.Button infoBtn;
         private System.Windows.Forms.Button costsBtn;
         private System.Windows.Forms.Button homeBtn;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panelCenterHome;
     }
 }

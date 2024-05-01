@@ -529,6 +529,7 @@
             this.button6.Text = "Differ Fee";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // logoutBtn
             // 
@@ -564,6 +565,7 @@
             this.servicesBtn.Text = "Services";
             this.servicesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.servicesBtn.UseVisualStyleBackColor = true;
+            this.servicesBtn.Click += new System.EventHandler(this.servicesBtn_Click);
             // 
             // infoBtn
             // 
@@ -576,6 +578,7 @@
             this.infoBtn.Text = "Information";
             this.infoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.infoBtn.UseVisualStyleBackColor = true;
+            this.infoBtn.Click += new System.EventHandler(this.infoBtn_Click);
             // 
             // costsBtn
             // 
@@ -588,6 +591,7 @@
             this.costsBtn.Text = "Costs Fee";
             this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.costsBtn.UseVisualStyleBackColor = true;
+            this.costsBtn.Click += new System.EventHandler(this.costsBtn_Click);
             // 
             // homeBtn
             // 
@@ -601,6 +605,7 @@
             this.homeBtn.Text = "Home";
             this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.homeBtn.UseVisualStyleBackColor = false;
+            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
             // 
             // panel5
             // 
@@ -611,6 +616,8 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(360, 160);
             this.panel5.TabIndex = 0;
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // homeservices
             // 

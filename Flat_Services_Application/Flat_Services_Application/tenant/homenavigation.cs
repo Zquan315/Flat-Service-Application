@@ -44,27 +44,37 @@ namespace Flat_Services_Application.tenant
 
         private void chatBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            homechating homechating = new homechating();
+            homechating.Show();
         }
 
         private void servicesBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            homeservices homeservices = new homeservices();
+            homeservices.Show();
         }
 
         private void infoBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            homeinformation homeinformation = new homeinformation();    
+            homeinformation.Show();
         }
 
         private void costsBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            homecostsing homecostsing = new homecostsing();
+            homecostsing.Show();
         }
 
         private void homeBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            homenavigation homenavigation = new homenavigation();
+            homenavigation.Show();
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -86,6 +96,25 @@ namespace Flat_Services_Application.tenant
         {
             this.homeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)41))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
             this.homeBtn.ForeColor = Color.White;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            differencesfee differencesfee = new differencesfee();
+            differencesfee.Show();
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            homenavigation homenavigation = new homenavigation();
+            homenavigation.Show();
         }
     }
 }
