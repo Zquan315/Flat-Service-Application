@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Flat_Services_Application.tenant
 {
-    public partial class homechating : Form
+    public partial class differencesfee : Form
     {
-        public homechating()
+        public differencesfee()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }

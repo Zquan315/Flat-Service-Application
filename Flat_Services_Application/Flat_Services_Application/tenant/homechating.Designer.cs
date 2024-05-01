@@ -56,6 +56,8 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -82,7 +84,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel8.BackColor = System.Drawing.Color.White;
             this.panel8.Controls.Add(this.groupBox1);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 0);
@@ -125,7 +127,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.Controls.Add(this.groupBox3);
             this.panel7.Controls.Add(this.groupBox2);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
@@ -136,6 +138,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
             this.groupBox3.Controls.Add(this.button5);
             this.groupBox3.Controls.Add(this.button4);
             this.groupBox3.Controls.Add(this.button3);
@@ -143,9 +146,9 @@
             this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox3.ForeColor = System.Drawing.Color.White;
-            this.groupBox3.Location = new System.Drawing.Point(28, 373);
+            this.groupBox3.Location = new System.Drawing.Point(6, 373);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(360, 481);
+            this.groupBox3.Size = new System.Drawing.Size(382, 481);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Settings";
@@ -155,7 +158,7 @@
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
             this.button5.Location = new System.Drawing.Point(3, 391);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(354, 87);
+            this.button5.Size = new System.Drawing.Size(376, 87);
             this.button5.TabIndex = 4;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
@@ -165,7 +168,7 @@
             this.button4.Dock = System.Windows.Forms.DockStyle.Top;
             this.button4.Location = new System.Drawing.Point(3, 304);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(354, 87);
+            this.button4.Size = new System.Drawing.Size(376, 87);
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
@@ -177,7 +180,7 @@
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(3, 217);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(354, 87);
+            this.button3.Size = new System.Drawing.Size(376, 87);
             this.button3.TabIndex = 2;
             this.button3.Text = "Return";
             this.button3.UseVisualStyleBackColor = true;
@@ -188,7 +191,7 @@
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(3, 130);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(354, 87);
+            this.button2.Size = new System.Drawing.Size(376, 87);
             this.button2.TabIndex = 1;
             this.button2.Text = "Change Color";
             this.button2.UseVisualStyleBackColor = true;
@@ -199,18 +202,19 @@
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(3, 43);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(354, 87);
+            this.button1.Size = new System.Drawing.Size(376, 87);
             this.button1.TabIndex = 0;
             this.button1.Text = "Search Chat";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(25, 39);
+            this.groupBox2.Location = new System.Drawing.Point(6, 20);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(360, 321);
+            this.groupBox2.Size = new System.Drawing.Size(382, 347);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contact";
@@ -239,6 +243,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -260,6 +265,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel3.Controls.Add(this.button6);
             this.panel3.Controls.Add(this.logoutBtn);
             this.panel3.Controls.Add(this.chatBtn);
             this.panel3.Controls.Add(this.servicesBtn);
@@ -292,7 +298,7 @@
             this.chatBtn.Name = "chatBtn";
             this.chatBtn.Size = new System.Drawing.Size(360, 120);
             this.chatBtn.TabIndex = 5;
-            this.chatBtn.Text = "Chat";
+            this.chatBtn.Text = "Chatting";
             this.chatBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.chatBtn.UseVisualStyleBackColor = true;
             // 
@@ -316,7 +322,7 @@
             this.infoBtn.Name = "infoBtn";
             this.infoBtn.Size = new System.Drawing.Size(360, 120);
             this.infoBtn.TabIndex = 3;
-            this.infoBtn.Text = "Info";
+            this.infoBtn.Text = "Information";
             this.infoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.infoBtn.UseVisualStyleBackColor = true;
             // 
@@ -328,7 +334,7 @@
             this.costsBtn.Name = "costsBtn";
             this.costsBtn.Size = new System.Drawing.Size(360, 120);
             this.costsBtn.TabIndex = 2;
-            this.costsBtn.Text = "Costs";
+            this.costsBtn.Text = "Costs Fee";
             this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.costsBtn.UseVisualStyleBackColor = true;
             // 
@@ -368,6 +374,30 @@
             this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(3, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(283, 70);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Chatting";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(0, 760);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(360, 120);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Differ Fee";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // panel9
             // 
@@ -433,5 +463,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button6;
     }
 }

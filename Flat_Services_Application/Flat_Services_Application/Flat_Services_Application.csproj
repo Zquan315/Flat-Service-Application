@@ -202,6 +202,12 @@
     <Compile Include="Sign-up.Designer.cs">
       <DependentUpon>Sign-up.cs</DependentUpon>
     </Compile>
+    <Compile Include="tenant\differencesfee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant\differencesfee.Designer.cs">
+      <DependentUpon>differencesfee.cs</DependentUpon>
+    </Compile>
     <Compile Include="tenant\homechating.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -294,6 +300,9 @@
     <EmbeddedResource Include="Sign-up.resx">
       <DependentUpon>Sign-up.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tenant\differencesfee.resx">
+      <DependentUpon>differencesfee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tenant\homechating.resx">
       <DependentUpon>homechating.cs</DependentUpon>
     </EmbeddedResource>
@@ -328,6 +337,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hinh-anh-mau-bandroll-khai-truong_034110310.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />

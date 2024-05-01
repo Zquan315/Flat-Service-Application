@@ -68,6 +68,8 @@
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.panelCenter.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -296,7 +298,7 @@
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(18, 251);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(176, 61);
+            this.button3.Size = new System.Drawing.Size(176, 64);
             this.button3.TabIndex = 2;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
@@ -306,7 +308,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(18, 149);
+            this.button2.Location = new System.Drawing.Point(18, 47);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(176, 69);
             this.button2.TabIndex = 1;
@@ -318,9 +320,9 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(18, 47);
+            this.button1.Location = new System.Drawing.Point(18, 143);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 69);
+            this.button1.Size = new System.Drawing.Size(176, 68);
             this.button1.TabIndex = 0;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -412,6 +414,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -433,6 +436,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.logoutBtn);
             this.panel1.Controls.Add(this.chatBtn);
             this.panel1.Controls.Add(this.servicesBtn);
@@ -465,7 +469,7 @@
             this.chatBtn.Name = "chatBtn";
             this.chatBtn.Size = new System.Drawing.Size(360, 120);
             this.chatBtn.TabIndex = 5;
-            this.chatBtn.Text = "Chat";
+            this.chatBtn.Text = "Chatting";
             this.chatBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.chatBtn.UseVisualStyleBackColor = true;
             // 
@@ -489,7 +493,7 @@
             this.infoBtn.Name = "infoBtn";
             this.infoBtn.Size = new System.Drawing.Size(360, 120);
             this.infoBtn.TabIndex = 3;
-            this.infoBtn.Text = "Info";
+            this.infoBtn.Text = "Information";
             this.infoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.infoBtn.UseVisualStyleBackColor = true;
             // 
@@ -501,7 +505,7 @@
             this.costsBtn.Name = "costsBtn";
             this.costsBtn.Size = new System.Drawing.Size(360, 120);
             this.costsBtn.TabIndex = 2;
-            this.costsBtn.Text = "Costs";
+            this.costsBtn.Text = "Costs Fee";
             this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.costsBtn.UseVisualStyleBackColor = true;
             // 
@@ -537,6 +541,30 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(360, 160);
             this.panel6.TabIndex = 1;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(3, 42);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(370, 70);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "Information";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(0, 760);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(360, 120);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Differ Fee";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // homeinformation
             // 
@@ -607,5 +635,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button4;
     }
 }

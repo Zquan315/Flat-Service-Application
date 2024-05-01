@@ -76,5 +76,10 @@ namespace Flat_Services_Application.tenant
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

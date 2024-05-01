@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelCenter = new System.Windows.Forms.Panel();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
@@ -65,8 +66,9 @@
             this.costsBtn = new System.Windows.Forms.Button();
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.panelCenter.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -89,6 +91,18 @@
             this.panelCenter.Size = new System.Drawing.Size(1414, 869);
             this.panelCenter.TabIndex = 9;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.BackgroundImage = global::Flat_Services_Application.Properties.Resources.hinh_anh_mau_bandroll_khai_truong_034110310;
+            this.groupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox4.Location = new System.Drawing.Point(1159, 28);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(243, 814);
+            this.groupBox4.TabIndex = 7;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Advertising";
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
@@ -107,9 +121,9 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(18, 279);
+            this.groupBox2.Location = new System.Drawing.Point(18, 272);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1122, 563);
+            this.groupBox2.Size = new System.Drawing.Size(1122, 570);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Account";
@@ -370,6 +384,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel4.Controls.Add(this.label12);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -391,6 +406,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.logoutBtn);
             this.panel1.Controls.Add(this.chatBtn);
             this.panel1.Controls.Add(this.servicesBtn);
@@ -423,7 +439,7 @@
             this.chatBtn.Name = "chatBtn";
             this.chatBtn.Size = new System.Drawing.Size(360, 120);
             this.chatBtn.TabIndex = 5;
-            this.chatBtn.Text = "Chat";
+            this.chatBtn.Text = "Chatting";
             this.chatBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.chatBtn.UseVisualStyleBackColor = true;
             // 
@@ -447,7 +463,7 @@
             this.infoBtn.Name = "infoBtn";
             this.infoBtn.Size = new System.Drawing.Size(360, 120);
             this.infoBtn.TabIndex = 3;
-            this.infoBtn.Text = "Info";
+            this.infoBtn.Text = "Information";
             this.infoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.infoBtn.UseVisualStyleBackColor = true;
             // 
@@ -459,7 +475,7 @@
             this.costsBtn.Name = "costsBtn";
             this.costsBtn.Size = new System.Drawing.Size(360, 120);
             this.costsBtn.TabIndex = 2;
-            this.costsBtn.Text = "Costs";
+            this.costsBtn.Text = "Costs Fee";
             this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.costsBtn.UseVisualStyleBackColor = true;
             // 
@@ -486,18 +502,6 @@
             this.panel3.Size = new System.Drawing.Size(360, 160);
             this.panel3.TabIndex = 0;
             // 
-            // groupBox4
-            // 
-            this.groupBox4.BackgroundImage = global::Flat_Services_Application.Properties.Resources.hinh_anh_mau_bandroll_khai_truong_034110310;
-            this.groupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox4.Location = new System.Drawing.Point(1159, 28);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(243, 814);
-            this.groupBox4.TabIndex = 7;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Advertising";
-            // 
             // panel5
             // 
             this.panel5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
@@ -507,6 +511,29 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(360, 160);
             this.panel5.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(3, 42);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(247, 70);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "Costing";
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(0, 760);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(360, 120);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Differ Fee";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // homecostsing
             // 
@@ -574,5 +601,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button4;
     }
 }

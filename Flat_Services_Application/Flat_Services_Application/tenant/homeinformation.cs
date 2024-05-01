@@ -16,5 +16,10 @@ namespace Flat_Services_Application.tenant
         {
             InitializeComponent();
         }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
