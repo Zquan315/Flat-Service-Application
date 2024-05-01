@@ -302,6 +302,7 @@
             this.button6.Text = "Differ Fee";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // logoutBtn
             // 
@@ -325,6 +326,7 @@
             this.chatBtn.Text = "Chatting";
             this.chatBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.chatBtn.UseVisualStyleBackColor = true;
+            this.chatBtn.Click += new System.EventHandler(this.chatBtn_Click);
             // 
             // servicesBtn
             // 
@@ -337,6 +339,7 @@
             this.servicesBtn.Text = "Services";
             this.servicesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.servicesBtn.UseVisualStyleBackColor = true;
+            this.servicesBtn.Click += new System.EventHandler(this.servicesBtn_Click);
             // 
             // infoBtn
             // 
@@ -349,6 +352,7 @@
             this.infoBtn.Text = "Information";
             this.infoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.infoBtn.UseVisualStyleBackColor = true;
+            this.infoBtn.Click += new System.EventHandler(this.infoBtn_Click);
             // 
             // costsBtn
             // 
@@ -361,6 +365,7 @@
             this.costsBtn.Text = "Costs Fee";
             this.costsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.costsBtn.UseVisualStyleBackColor = true;
+            this.costsBtn.Click += new System.EventHandler(this.costsBtn_Click);
             // 
             // homeBtn
             // 
@@ -374,6 +379,7 @@
             this.homeBtn.Text = "Home";
             this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.homeBtn.UseVisualStyleBackColor = false;
+            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
             // 
             // panel5
             // 
