@@ -16,5 +16,11 @@ namespace Flat_Services_Application.tenant
         {
             InitializeComponent();
         }
+
+        private void homeservices_Load(object sender, EventArgs e)
+        {
+            this.servicesBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)41))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.servicesBtn.ForeColor = Color.White;
+        }
     }
 }

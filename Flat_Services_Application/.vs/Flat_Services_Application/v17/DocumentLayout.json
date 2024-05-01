@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homecostsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homecostsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homechating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\homechating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homechating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\homechating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homechating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\homecostsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homecostsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\homecostsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homecostsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homeinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -23,48 +35,16 @@
       "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\differencesfee.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\differencesfee.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\differencesfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homeinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\homeinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homeinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homechating.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homechating.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homenavigation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homenavigation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homenavigation.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homenavigation.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\flat_services_application\\tenant\\homeinformation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homeinformation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|d:\\projectall\\github\\flat-service-application\\flat_services_application\\flat_services_application\\tenant\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FDC0D-76B7-439B-AB02-E68BFBE0B989}|Flat_Services_Application\\Flat_Services_Application.csproj|solutionrelative:flat_services_application\\tenant\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +66,132 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "differencesfee.cs",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\differencesfee.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\differencesfee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:02:08.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "differencesfee.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\differencesfee.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\differencesfee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:01:49.84Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "homechating.cs",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homechating.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.cs",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homechating.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:01:33.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "homechating.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homechating.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homechating.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:00:54.104Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "homecostsing.cs",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homecostsing.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homecostsing.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homecostsing.cs",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homecostsing.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIAwwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:00:24.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "homecostsing.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homecostsing.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homecostsing.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homecostsing.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homecostsing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:00:21.957Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "homenavigation.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homenavigation.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homenavigation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:00:20.15Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "homeservices.cs",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeservices.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homeservices.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeservices.cs",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homeservices.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIAwwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:59:37.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "homeservices.cs [Design]",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeservices.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homeservices.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeservices.cs [Design]",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homeservices.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:59:34.126Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "homeinformation.cs",
+              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeinformation.cs",
+              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homeinformation.cs",
+              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeinformation.cs",
+              "RelativeToolTip": "Flat_Services_Application\\tenant\\homeinformation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwBsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:59:10.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "homeinformation.cs [Design]",
               "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeinformation.cs",
               "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homeinformation.cs",
@@ -95,192 +200,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T09:52:59.757Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "homechating.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homechating.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homechating.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:33:01.587Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "homecostsing.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homecostsing.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homecostsing.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homecostsing.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homecostsing.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T09:54:55.023Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "homenavigation.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homenavigation.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homenavigation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:41:25.04Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "differencesfee.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\differencesfee.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\differencesfee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:57:08.624Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "homeservices.cs [Design]",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeservices.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homeservices.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeservices.cs [Design]",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homeservices.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T09:53:47.931Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "homenavigation.cs",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homenavigation.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.cs",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homenavigation.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAhwFcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:05:32.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\Program.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\Program.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\Program.cs",
-              "RelativeToolTip": "Flat_Services_Application\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T02:47:59.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\App.config",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\App.config",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\App.config",
-              "RelativeToolTip": "Flat_Services_Application\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-01T00:20:26.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "differencesfee.resx",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.resx",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\differencesfee.resx",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.resx",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\differencesfee.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-01T00:20:28.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "differencesfee.cs",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\differencesfee.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\differencesfee.cs",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\differencesfee.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIAwwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:58:56.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "homeinformation.cs",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeinformation.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homeinformation.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeinformation.cs",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homeinformation.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIAwwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:17:23.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "homechating.Designer.cs",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.Designer.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homechating.Designer.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homechating.Designer.cs",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homechating.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T03:05:20.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "homenavigation.Designer.cs",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.Designer.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homenavigation.Designer.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.Designer.cs",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homenavigation.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:07:37.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "homenavigation.resx",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.resx",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homenavigation.resx",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homenavigation.resx",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homenavigation.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-27T10:07:32.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "homeinformation.Designer.cs",
-              "DocumentMoniker": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeinformation.Designer.cs",
-              "RelativeDocumentMoniker": "Flat_Services_Application\\tenant\\homeinformation.Designer.cs",
-              "ToolTip": "D:\\ProjectAll\\github\\Flat-Service-Application\\Flat_Services_Application\\Flat_Services_Application\\tenant\\homeinformation.Designer.cs",
-              "RelativeToolTip": "Flat_Services_Application\\tenant\\homeinformation.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:07:24.749Z",
-              "EditorCaption": ""
             }
           ]
         }

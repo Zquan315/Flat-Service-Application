@@ -620,6 +620,7 @@
             this.Controls.Add(this.panelCenter);
             this.Name = "homeservices";
             this.Text = "homeservices";
+            this.Load += new System.EventHandler(this.homeservices_Load);
             this.panelCenter.ResumeLayout(false);
             this.panelCenterServices.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

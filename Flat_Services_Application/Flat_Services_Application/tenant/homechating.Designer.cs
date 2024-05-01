@@ -417,6 +417,7 @@
             this.Controls.Add(this.panelCenter);
             this.Name = "homechating";
             this.Text = "homechating";
+            this.Load += new System.EventHandler(this.homechating_Load);
             this.panel1.ResumeLayout(false);
             this.panelCenterChat.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

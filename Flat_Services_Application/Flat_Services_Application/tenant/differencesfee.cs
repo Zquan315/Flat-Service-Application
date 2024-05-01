@@ -21,5 +21,11 @@ namespace Flat_Services_Application.tenant
         {
 
         }
+
+        private void differencesfee_Load(object sender, EventArgs e)
+        {
+            this.differBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)41))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.differBtn.ForeColor = Color.White;
+        }
     }
 }

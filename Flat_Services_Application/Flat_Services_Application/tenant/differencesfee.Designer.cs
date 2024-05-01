@@ -30,7 +30,7 @@
         {
             this.panelCenter = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.differBtn = new System.Windows.Forms.Button();
             this.logoutBtn = new System.Windows.Forms.Button();
             this.chatBtn = new System.Windows.Forms.Button();
             this.servicesBtn = new System.Windows.Forms.Button();
@@ -67,7 +67,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.differBtn);
             this.panel1.Controls.Add(this.logoutBtn);
             this.panel1.Controls.Add(this.chatBtn);
             this.panel1.Controls.Add(this.servicesBtn);
@@ -80,17 +80,17 @@
             this.panel1.Size = new System.Drawing.Size(360, 869);
             this.panel1.TabIndex = 7;
             // 
-            // button1
+            // differBtn
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 600);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(360, 120);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Differ Fee";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = true;
+            this.differBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.differBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.differBtn.Location = new System.Drawing.Point(0, 600);
+            this.differBtn.Name = "differBtn";
+            this.differBtn.Size = new System.Drawing.Size(360, 120);
+            this.differBtn.TabIndex = 7;
+            this.differBtn.Text = "Differ Fee";
+            this.differBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.differBtn.UseVisualStyleBackColor = true;
             // 
             // logoutBtn
             // 
@@ -255,6 +255,7 @@
             this.Controls.Add(this.panelCenter);
             this.Name = "differencesfee";
             this.Text = "differencesfee";
+            this.Load += new System.EventHandler(this.differencesfee_Load);
             this.panelCenter.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -270,7 +271,7 @@
 
         private System.Windows.Forms.Panel panelCenter;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button differBtn;
         private System.Windows.Forms.Button logoutBtn;
         private System.Windows.Forms.Button chatBtn;
         private System.Windows.Forms.Button servicesBtn;

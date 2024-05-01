@@ -21,5 +21,11 @@ namespace Flat_Services_Application.tenant
         {
 
         }
+
+        private void homeinformation_Load(object sender, EventArgs e)
+        {
+            this.infoBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)41))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.infoBtn.ForeColor = Color.White;
+        }
     }
 }

@@ -26,5 +26,11 @@ namespace Flat_Services_Application.tenant
         {
 
         }
+
+        private void homechating_Load(object sender, EventArgs e)
+        {
+            this.chatBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)41))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.chatBtn.ForeColor = Color.White;
+        }
     }
 }
