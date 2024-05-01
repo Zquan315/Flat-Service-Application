@@ -46,8 +46,8 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panelCenterHome = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -279,6 +279,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Report App";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 73);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(419, 76);
+            this.textBox1.TabIndex = 1;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -287,14 +295,6 @@
             this.label3.Size = new System.Drawing.Size(359, 32);
             this.label3.TabIndex = 0;
             this.label3.Text = "Write your report about us:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(6, 73);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(419, 76);
-            this.textBox1.TabIndex = 1;
             // 
             // homenavigation
             // 
@@ -306,6 +306,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "homenavigation";
             this.Text = "homenavigation";
+            this.Load += new System.EventHandler(this.homenavigation_Load);
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();

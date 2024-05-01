@@ -81,5 +81,11 @@ namespace Flat_Services_Application.tenant
         {
 
         }
+
+        private void homenavigation_Load(object sender, EventArgs e)
+        {
+            this.homeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)41))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.homeBtn.ForeColor = Color.White;
+        }
     }
 }

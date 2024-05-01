@@ -46,9 +46,10 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -69,8 +70,9 @@
             this.costsBtn = new System.Windows.Forms.Button();
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.panelCenterInformation.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -91,7 +93,7 @@
             this.panelCenterInformation.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenterInformation.Location = new System.Drawing.Point(360, 160);
             this.panelCenterInformation.Name = "panelCenterInformation";
-            this.panelCenterInformation.Size = new System.Drawing.Size(1414, 869);
+            this.panelCenterInformation.Size = new System.Drawing.Size(1398, 854);
             this.panelCenterInformation.TabIndex = 9;
             // 
             // groupBox1
@@ -293,6 +295,18 @@
             this.panel7.Size = new System.Drawing.Size(206, 365);
             this.panel7.TabIndex = 13;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(18, 265);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(176, 64);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "Help?";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -305,18 +319,6 @@
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(18, 101);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(176, 69);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -328,6 +330,18 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(18, 101);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(176, 69);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // textBox3
             // 
@@ -410,18 +424,20 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(360, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1414, 160);
+            this.panel2.Size = new System.Drawing.Size(1398, 160);
             this.panel2.TabIndex = 8;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel4.Controls.Add(this.textBox6);
+            this.panel4.Controls.Add(this.comboBox1);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1414, 160);
+            this.panel4.Size = new System.Drawing.Size(1398, 160);
             this.panel4.TabIndex = 0;
             // 
             // label11
@@ -461,7 +477,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 1029);
+            this.panel1.Size = new System.Drawing.Size(360, 1014);
             this.panel1.TabIndex = 7;
             // 
             // button4
@@ -480,7 +496,7 @@
             // 
             this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.logoutBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.Location = new System.Drawing.Point(0, 909);
+            this.logoutBtn.Location = new System.Drawing.Point(0, 894);
             this.logoutBtn.Name = "logoutBtn";
             this.logoutBtn.Size = new System.Drawing.Size(360, 120);
             this.logoutBtn.TabIndex = 6;
@@ -558,18 +574,6 @@
             this.panel3.Size = new System.Drawing.Size(360, 160);
             this.panel3.TabIndex = 0;
             // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(18, 265);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(176, 64);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Help?";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
             // panel6
             // 
             this.panel6.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
@@ -580,11 +584,27 @@
             this.panel6.Size = new System.Drawing.Size(360, 160);
             this.panel6.TabIndex = 1;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(1274, 121);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 33);
+            this.comboBox1.TabIndex = 3;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Enabled = false;
+            this.textBox6.Location = new System.Drawing.Point(1043, 121);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(197, 31);
+            this.textBox6.TabIndex = 4;
+            // 
             // homeinformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1774, 1029);
+            this.ClientSize = new System.Drawing.Size(1758, 1014);
             this.Controls.Add(this.panelCenterInformation);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -652,5 +672,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
