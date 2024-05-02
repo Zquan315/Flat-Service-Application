@@ -49,7 +49,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbForgotPass = new System.Windows.Forms.Label();
             this.btnReturn = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.getOTP = new System.Windows.Forms.PictureBox();
             this.bunifuPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.getOTP)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuPanel1
@@ -60,6 +62,7 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
+            this.bunifuPanel1.Controls.Add(this.getOTP);
             this.bunifuPanel1.Controls.Add(this.lb2);
             this.bunifuPanel1.Controls.Add(this.lb1);
             this.bunifuPanel1.Controls.Add(this.btnConfirm);
@@ -72,8 +75,9 @@
             this.bunifuPanel1.Location = new System.Drawing.Point(187, 61);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(424, 339);
+            this.bunifuPanel1.Size = new System.Drawing.Size(431, 339);
             this.bunifuPanel1.TabIndex = 0;
+            this.bunifuPanel1.Click += new System.EventHandler(this.bunifuPanel1_Click);
             // 
             // lb2
             // 
@@ -410,6 +414,17 @@
             this.btnReturn.TabIndex = 1;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
+            // getOTP
+            // 
+            this.getOTP.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("getOTP.BackgroundImage")));
+            this.getOTP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.getOTP.Location = new System.Drawing.Point(388, 216);
+            this.getOTP.Name = "getOTP";
+            this.getOTP.Size = new System.Drawing.Size(33, 35);
+            this.getOTP.TabIndex = 1;
+            this.getOTP.TabStop = false;
+            this.getOTP.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // ForgotPass
             // 
             this.AcceptButton = this.btnConfirm;
@@ -423,8 +438,10 @@
             this.Name = "ForgotPass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Flat Service";
+            this.Load += new System.EventHandler(this.ForgotPass_Load);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.getOTP)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -441,5 +458,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnConfirm;
         private System.Windows.Forms.Label lb2;
         private System.Windows.Forms.Label lb1;
+        private System.Windows.Forms.PictureBox getOTP;
     }
 }

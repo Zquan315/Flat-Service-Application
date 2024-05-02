@@ -148,19 +148,10 @@ namespace Flat_Services_Application
                     lbps1.Text = "";
 
                 }
-                Data obj = Response.ResultAs<Data>();
+                Data dt = Response.ResultAs<Data>();
+                
 
-                //if (cbRemember.Checked)
-                //{
-                //    tbPass.Text = obj.pass;
-                //    tbPass.PasswordChar = '*';
-                //}
-                //else
-                //{
-                //    tbPass.PasswordChar = '\0';
-                //}
-
-                if (tbPass.Text != obj.pass)
+                if (tbPass.Text != dt.pass)
                 {
                     lbps2.Text = "Wrong";
                     lbps2.ForeColor = Color.Red;
@@ -172,10 +163,30 @@ namespace Flat_Services_Application
 
                 }
 
+                if (cbRemember.Checked)
+                {
+                    var data = new Data()
+                    {
+                        name = dt.name,
+                        email = dt.email,
+                        pass = dt.pass,
+                        phone = dt.phone,
+                        ID = dt.ID,
+                        date = dt.date,
+                        objects = dt.objects,
+                        status = dt.status,
+                        remember = 1,
+                    };
+                    FirebaseResponse ud = await client.UpdateAsync("Account Tenant/" + tbPhoneNumber, data);
+                    Data result = ud.ResultAs<Data>();
+                }
+
                 MessageBox.Show("Enter tenant!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
                 //them luong hien thi form login
+
             }
+
             if(rdbtnLessor.Checked)
             {
                 FirebaseResponse Response = await client.GetAsync("Account Lessor/" + tbPhoneNumber.Text);
@@ -192,15 +203,7 @@ namespace Flat_Services_Application
                 }
                 Data obj = Response.ResultAs<Data>();
 
-                //if (cbRemember.Checked)
-                //{
-                //    tbPass.Text = obj.pass;
-                //    tbPass.PasswordChar = '*';
-                //}
-                //else
-                //{
-                //    tbPass.PasswordChar = '\0';
-                //}
+
 
                 if (tbPass.Text != obj.pass)
                 {
@@ -213,10 +216,27 @@ namespace Flat_Services_Application
                     lbps2.Text = "";
 
                 }
-
+                if (cbRemember.Checked)
+                {
+                    var data = new Data()
+                    {
+                        name = obj.name,
+                        email = obj.email,
+                        pass = obj.pass,
+                        phone = obj.phone,
+                        ID = obj.ID,
+                        date = obj.date,
+                        objects = obj.objects,
+                        status = obj.status,
+                        remember = 1,
+                    };
+                    FirebaseResponse ud = await client.UpdateAsync("Account Lessor/" + tbPhoneNumber, data);
+                    Data result = ud.ResultAs<Data>();
+                }
                 MessageBox.Show("Enter tenant!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
                 //them luong hien thi form login
+
             }
 
 
