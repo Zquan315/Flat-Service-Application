@@ -131,6 +131,9 @@
     <Compile Include="changePass_forgot.Designer.cs">
       <DependentUpon>changePass_forgot.cs</DependentUpon>
     </Compile>
+    <Compile Include="connectDB\Connection.cs" />
+    <Compile Include="connectDB\Modify.cs" />
+    <Compile Include="connectDB\roomate.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="ForgotPass.cs">
       <SubType>Form</SubType>
