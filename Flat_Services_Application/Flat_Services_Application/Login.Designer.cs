@@ -42,6 +42,7 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.btnLogin = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.rdbtnLessor = new System.Windows.Forms.RadioButton();
             this.llbSign_up = new System.Windows.Forms.LinkLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -56,7 +57,6 @@
             this.lbLogin = new System.Windows.Forms.Label();
             this.Eye = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.Hidden = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.rdbtnLessor = new System.Windows.Forms.RadioButton();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -181,6 +181,16 @@
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(469, 370);
             this.bunifuPanel1.TabIndex = 1;
+            // 
+            // rdbtnLessor
+            // 
+            this.rdbtnLessor.AutoSize = true;
+            this.rdbtnLessor.Location = new System.Drawing.Point(175, 293);
+            this.rdbtnLessor.Name = "rdbtnLessor";
+            this.rdbtnLessor.Size = new System.Drawing.Size(69, 20);
+            this.rdbtnLessor.TabIndex = 34;
+            this.rdbtnLessor.Text = "Lessor";
+            this.rdbtnLessor.UseVisualStyleBackColor = true;
             // 
             // llbSign_up
             // 
@@ -354,6 +364,7 @@
             this.tbPass.UseSystemPasswordChar = false;
             this.tbPass.WordWrap = true;
             this.tbPass.TextChange += new System.EventHandler(this.tc_pass);
+            this.tbPass.Click += new System.EventHandler(this.click_rmb_pass);
             // 
             // bunifuLabel2
             // 
@@ -446,6 +457,7 @@
             this.tbPhoneNumber.UseSystemPasswordChar = false;
             this.tbPhoneNumber.WordWrap = true;
             this.tbPhoneNumber.TextChange += new System.EventHandler(this.tc_number);
+            this.tbPhoneNumber.TextChanged += new System.EventHandler(this.tbPhoneNumber_TextChanged);
             // 
             // bunifuLabel1
             // 
@@ -541,16 +553,6 @@
             this.Hidden.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Hidden.TabIndex = 31;
             this.Hidden.Click += new System.EventHandler(this.Hidden_Click);
-            // 
-            // rdbtnLessor
-            // 
-            this.rdbtnLessor.AutoSize = true;
-            this.rdbtnLessor.Location = new System.Drawing.Point(175, 293);
-            this.rdbtnLessor.Name = "rdbtnLessor";
-            this.rdbtnLessor.Size = new System.Drawing.Size(69, 20);
-            this.rdbtnLessor.TabIndex = 34;
-            this.rdbtnLessor.Text = "Lessor";
-            this.rdbtnLessor.UseVisualStyleBackColor = true;
             // 
             // Login
             // 

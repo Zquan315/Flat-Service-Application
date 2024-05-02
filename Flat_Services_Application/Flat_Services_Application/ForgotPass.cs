@@ -14,6 +14,8 @@ using System.Net;
 using System.Xml.Linq;
 using System.IO;
 using System.Collections.Specialized;
+using RestSharp;
+using System.Net.Mail;
 
 namespace Flat_Services_Application
 {
@@ -29,8 +31,8 @@ namespace Flat_Services_Application
         public ForgotPass(String s)
         {
             InitializeComponent();
-            s = s.Substring(1);
-            tbPhone.Text = "+84" + s;
+            
+            tbMail.Text = s;
         }
         private void btnReturn_Click(object sender, EventArgs e)
         {
@@ -43,7 +45,7 @@ namespace Flat_Services_Application
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             //neu sdt ton tai, otp gui ve may dung thi dang hap thanh cong
-            if (tbOTP.Text == "" || tbPhone.Text == "")
+            if (tbOTP.Text == "" || tbMail.Text == "")
                 return;           
             //dieu kien otp
             //if(tbOTP.Text != randomNum)
@@ -56,7 +58,7 @@ namespace Flat_Services_Application
             {
                 lb2.Text = "";
                 this.Hide();
-                changePass_forgot c = new changePass_forgot(tbPhone.Text);
+                changePass_forgot c = new changePass_forgot(tbMail.Text);
                 c.Show();
             }
             
@@ -64,7 +66,7 @@ namespace Flat_Services_Application
 
         private void tbPhone_TextChanged(object sender, EventArgs e)
         {
-            if (tbPhone.Text == "")
+            if (tbMail.Text == "")
             {
                 lb1.Text = "*";
                 lb1.ForeColor = Color.Red;
@@ -105,46 +107,54 @@ namespace Flat_Services_Application
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private async void pictureBox1_Click(object sender, EventArgs e)
         {
-            //String result;
-            //string apiKey = "NTUzMTQ2NTE2NzRmNDY1NTcyNTE2NDMyNDc0MTQxNTI=";
-            //string numbers = tbPhone.Text; // in a comma seperated list
-            //string message = "This is OTP code sent to " + tbPhone.Text + ": " + randomNum + ". Please don't share with anyone.";
-            //string send = "quan315";
+            
             //Random rdm = new Random();
             //randomNum = (rdm.Next(100000, 999999)).ToString();
-            //String url = "https://api.txtlocal.com/send/?apikey=" + apiKey + "&numbers=" + numbers + "&message=" + message + "&sender=" + sender;
-            ////refer to parameters to complete correct url string
-
-            //StreamWriter myWriter = null;
-            //HttpWebRequest objRequest = (HttpWebRequest)WebRequest.Create(url);
-
-            //objRequest.Method = "POST";
-            //objRequest.ContentLength = Encoding.UTF8.GetByteCount(url);
-            //objRequest.ContentType = "application/x-www-form-urlencoded";
-            //try
-            //{
-            //    myWriter = new StreamWriter(objRequest.GetRequestStream());
-            //    myWriter.Write(url);
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show(ex.Message);
-            //}
-            //finally
-            //{
-            //    myWriter.Close();
-            //}
-
-            //HttpWebResponse objResponse = (HttpWebResponse)objRequest.GetResponse();
-            //using (StreamReader sr = new StreamReader(objResponse.GetResponseStream()))
-            //{
-            //    result = sr.ReadToEnd();
-            //    // Close and clean up the StreamReader
-            //    sr.Close();
-            //}
-            //MessageBox.Show("OTP code is sent successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //string cnt = "Your OTP code is " + randomNum;
+            //bool a = Send(tbMail.Text, "OTP code", cnt);
+            //if (a)
+            //    MessageBox.Show("Sent OTP");
+            //else
+            //    MessageBox.Show("Erorr");
+            
         }
+
+        //private static readonly string _from = "flatservicesapp@gmail.com"; // Email của Sender (của bạn)
+        //private static readonly string _pass = "flatservice258#"; // Mật khẩu Email của Sender (của bạn)
+
+        //public static bool Send(string sendto, string subject, string content)
+        //{
+        //    //sendto: Email receiver (người nhận)
+        //    //subject: Tiêu đề email
+        //    //content: Nội dung của email, bạn có thể viết mã HTML
+        //    //Nếu gửi email thành công, sẽ trả về kết quả: OK, không thành công sẽ trả về thông tin loi
+        //    try
+        //    {
+        //        MailMessage mail = new MailMessage();
+        //        SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+
+        //        mail.From = new MailAddress(_from);
+        //        mail.To.Add(sendto);
+        //        mail.Subject = subject;
+        //        //mail.IsBodyHtml = true;
+        //        mail.Body = content;
+
+        //        mail.Priority = MailPriority.High;
+
+        //        SmtpServer.Port =  25;
+        //        SmtpServer.Credentials = new System.Net.NetworkCredential(_from, _pass);
+        //        SmtpServer.EnableSsl = true;
+
+        //        SmtpServer.Send(mail);
+        //        return true;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return false;
+        //    }
+
+        //}
     }
 }

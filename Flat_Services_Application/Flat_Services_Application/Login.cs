@@ -14,6 +14,7 @@ using FireSharp.Interfaces;
 using FireSharp.Response;
 using System.Net;
 using System.Xml.Linq;
+using Flat_Services_Application.tenant;
 
 namespace Flat_Services_Application
 {
@@ -68,9 +69,10 @@ namespace Flat_Services_Application
                 }
                 else
                 {
+                    Data dt = Response.ResultAs<Data>();
                     lbps1.Text = "";
                     this.Hide();
-                    ForgotPass forgotPass = new ForgotPass(tbPhoneNumber.Text);
+                    ForgotPass forgotPass = new ForgotPass(dt.email);
                     forgotPass.Show();
                    
                 }
@@ -87,9 +89,10 @@ namespace Flat_Services_Application
                 }
                 else
                 {
+                    Data dt = Response.ResultAs<Data>();
                     lbps1.Text = "";
                     this.Hide();
-                    ForgotPass forgotPass = new ForgotPass(tbPhoneNumber.Text);
+                    ForgotPass forgotPass = new ForgotPass(dt.email);
                     forgotPass.Show();
                    
                 }
@@ -177,12 +180,14 @@ namespace Flat_Services_Application
                         status = dt.status,
                         remember = 1,
                     };
-                    FirebaseResponse ud = await client.UpdateAsync("Account Tenant/" + tbPhoneNumber, data);
+                    FirebaseResponse ud = await client.UpdateAsync("Account Tenant/" + tbPhoneNumber.Text, data);
                     Data result = ud.ResultAs<Data>();
                 }
-
-                MessageBox.Show("Enter tenant!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
+                this.Hide();
+                homenavigation h = new homenavigation();
+                h.StartPosition = FormStartPosition.CenterScreen;
+                h.Show();
+                
                 //them luong hien thi form login
 
             }
@@ -230,11 +235,14 @@ namespace Flat_Services_Application
                         status = obj.status,
                         remember = 1,
                     };
-                    FirebaseResponse ud = await client.UpdateAsync("Account Lessor/" + tbPhoneNumber, data);
+                    FirebaseResponse ud = await client.UpdateAsync("Account Lessor/" + tbPhoneNumber.Text, data);
                     Data result = ud.ResultAs<Data>();
                 }
-                MessageBox.Show("Enter tenant!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
+                this.Hide();
+                Home_Lessor a = new Home_Lessor();
+                a.StartPosition = FormStartPosition.CenterScreen;
+                a.Show();
+               
                 //them luong hien thi form login
 
             }
@@ -316,6 +324,50 @@ namespace Flat_Services_Application
         private void btnReturn_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void tbPhoneNumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void click_rmb_pass(object sender, EventArgs e)
+        {
+            try
+            {
+                if (rdbtnLessor.Checked)
+                {
+
+                    FirebaseResponse Response = await client.GetAsync("Account Lessor/" + tbPhoneNumber.Text);
+                    if (Response.Body != "null")
+                    {
+                        Data obj = Response.ResultAs<Data>();
+                        if (obj.remember == 1)
+                        {
+                            tbPass.Text = obj.pass;
+                        }
+                    }
+
+                }
+
+                if (rdbtnTenant.Checked)
+                {
+
+                    FirebaseResponse Response = await client.GetAsync("Account Tenant/" + tbPhoneNumber.Text);
+                    if (Response.Body != "null")
+                    {
+                        Data obj = Response.ResultAs<Data>();
+                        if (obj.remember == 1)
+                        {
+                            tbPass.Text = obj.pass;
+                        }
+                    }
+
+
+                }
+            }
+            catch { return; }
+              
         }
     }
 }
