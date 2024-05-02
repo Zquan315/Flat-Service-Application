@@ -59,8 +59,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -73,6 +71,11 @@
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.panelCenterInformation.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -83,6 +86,7 @@
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCenterInformation
@@ -430,8 +434,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.panel4.Controls.Add(this.textBox6);
-            this.panel4.Controls.Add(this.comboBox1);
+            this.panel4.Controls.Add(this.panel9);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -439,22 +442,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1398, 160);
             this.panel4.TabIndex = 0;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(1043, 121);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(197, 31);
-            this.textBox6.TabIndex = 4;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1274, 121);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 33);
-            this.comboBox1.TabIndex = 3;
             // 
             // label11
             // 
@@ -607,6 +594,53 @@
             this.panel6.TabIndex = 1;
             this.panel6.Click += new System.EventHandler(this.panel6_Click);
             // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.label12);
+            this.panel9.Controls.Add(this.label13);
+            this.panel9.Controls.Add(this.comboBox1);
+            this.panel9.Controls.Add(this.textBox10);
+            this.panel9.Location = new System.Drawing.Point(819, 9);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(553, 151);
+            this.panel9.TabIndex = 6;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(3, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(208, 32);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Phone Number";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(299, 49);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(233, 33);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(299, 3);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(233, 31);
+            this.textBox10.TabIndex = 0;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(72, 123);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(481, 25);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "© 2024 - Copyright by Group 5 NT106.O21.ANTT";
+            // 
             // homeinformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -631,6 +665,8 @@
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -680,7 +716,10 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label12;
     }
 }

@@ -59,6 +59,11 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelCenterChat.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -69,6 +74,7 @@
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -110,10 +116,10 @@
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox2.Location = new System.Drawing.Point(3, 753);
+            this.textBox2.Location = new System.Drawing.Point(3, 744);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(965, 81);
+            this.textBox2.Size = new System.Drawing.Size(965, 90);
             this.textBox2.TabIndex = 1;
             // 
             // textBox1
@@ -243,6 +249,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel4.Controls.Add(this.panel7);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -415,6 +422,53 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label4);
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.comboBox1);
+            this.panel7.Controls.Add(this.textBox10);
+            this.panel7.Location = new System.Drawing.Point(846, 6);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(553, 151);
+            this.panel7.TabIndex = 6;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(3, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(208, 32);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Phone Number";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(299, 49);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(233, 33);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(299, 3);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(233, 31);
+            this.textBox10.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(72, 129);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(481, 25);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "© 2024 - Copyright by Group 5 NT106.O21.ANTT";
+            // 
             // homechating
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -436,6 +490,8 @@
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -472,5 +528,10 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label4;
     }
 }

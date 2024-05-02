@@ -37,6 +37,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homenavigation homenavigation = new homenavigation();
+            homenavigation.StartPosition = FormStartPosition.CenterScreen;
             homenavigation.Show();
         }
 
@@ -44,6 +45,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homecostsing homecostsing = new homecostsing();
+            homecostsing.StartPosition = FormStartPosition.CenterScreen;
             homecostsing.Show();
         }
 
@@ -51,6 +53,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homeinformation homeinformation = new homeinformation();
+            homeinformation.StartPosition = FormStartPosition.CenterScreen;
             homeinformation.Show();
         }
 
@@ -58,6 +61,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homeservices homeservices = new homeservices();
+            homeservices.StartPosition = FormStartPosition.CenterScreen;
             homeservices.Show();
         }
 
@@ -65,6 +69,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homechating homechating = new homechating();
+            homechating.StartPosition = FormStartPosition.CenterScreen;
             homechating.Show();
         }
 
@@ -72,6 +77,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homenavigation homenavigation = new homenavigation();
+            homenavigation.StartPosition = FormStartPosition.CenterScreen;
             homenavigation.Show();
         }
     }

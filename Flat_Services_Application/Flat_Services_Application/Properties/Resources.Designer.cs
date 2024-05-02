@@ -83,6 +83,16 @@ namespace Flat_Services_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Downloadapp {
+            get {
+                object obj = ResourceManager.GetObject("Downloadapp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hinh_anh_mau_bandroll_khai_truong_034110310 {
             get {
                 object obj = ResourceManager.GetObject("hinh-anh-mau-bandroll-khai-truong_034110310", resourceCulture);
@@ -106,6 +116,26 @@ namespace Flat_Services_Application.Properties {
         internal static System.Drawing.Bitmap Icon1 {
             get {
                 object obj = ResourceManager.GetObject("Icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_05_03_003525 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-05-03 003525", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings {
+            get {
+                object obj = ResourceManager.GetObject("settings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -46,6 +46,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homechating homechating = new homechating();
+            homechating.StartPosition = FormStartPosition.CenterScreen;
             homechating.Show();
         }
 
@@ -53,13 +54,15 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homeservices homeservices = new homeservices();
+            homeservices.StartPosition = FormStartPosition.CenterScreen;
             homeservices.Show();
         }
 
         private void infoBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            homeinformation homeinformation = new homeinformation();    
+            homeinformation homeinformation = new homeinformation();   
+            homeinformation.StartPosition = FormStartPosition.CenterScreen;
             homeinformation.Show();
         }
 
@@ -67,6 +70,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homecostsing homecostsing = new homecostsing();
+            homecostsing.StartPosition = FormStartPosition.CenterScreen;
             homecostsing.Show();
         }
 
@@ -74,6 +78,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homenavigation homenavigation = new homenavigation();
+            homenavigation.StartPosition = FormStartPosition.CenterScreen;
             homenavigation.Show();
         }
 
@@ -102,6 +107,7 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             differencesfee differencesfee = new differencesfee();
+            differencesfee.StartPosition = FormStartPosition.CenterScreen;
             differencesfee.Show();
         }
 
@@ -114,7 +120,18 @@ namespace Flat_Services_Application.tenant
         {
             this.Hide();
             homenavigation homenavigation = new homenavigation();
+            homenavigation.StartPosition = FormStartPosition.CenterScreen;
             homenavigation.Show();
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

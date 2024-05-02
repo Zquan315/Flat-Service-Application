@@ -78,6 +78,11 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panelCenter.SuspendLayout();
             this.panelCenterServices.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -90,6 +95,7 @@
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCenter
@@ -146,9 +152,9 @@
             this.groupBox2.Controls.Add(this.panel6);
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(543, 32);
+            this.groupBox2.Location = new System.Drawing.Point(543, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(859, 459);
+            this.groupBox2.Size = new System.Drawing.Size(859, 485);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Services";
@@ -442,9 +448,9 @@
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(15, 32);
+            this.groupBox1.Location = new System.Drawing.Point(15, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(522, 459);
+            this.groupBox1.Size = new System.Drawing.Size(522, 485);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Free Services";
@@ -456,7 +462,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(509, 407);
+            this.dataGridView1.Size = new System.Drawing.Size(509, 433);
             this.dataGridView1.TabIndex = 0;
             // 
             // panel2
@@ -471,6 +477,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.panel4.Controls.Add(this.panel7);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -553,6 +560,7 @@
             this.chatBtn.Text = "Chatting";
             this.chatBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.chatBtn.UseVisualStyleBackColor = true;
+            this.chatBtn.Click += new System.EventHandler(this.chatBtn_Click);
             // 
             // servicesBtn
             // 
@@ -619,6 +627,53 @@
             this.panel5.Click += new System.EventHandler(this.panel5_Click);
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label14);
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.comboBox1);
+            this.panel7.Controls.Add(this.textBox10);
+            this.panel7.Location = new System.Drawing.Point(858, 6);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(553, 151);
+            this.panel7.TabIndex = 5;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(299, 49);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(233, 33);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(299, 3);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(233, 31);
+            this.textBox10.TabIndex = 0;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(3, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(208, 32);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Phone Number";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(63, 129);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(481, 25);
+            this.label14.TabIndex = 15;
+            this.label14.Text = "© 2024 - Copyright by Group 5 NT106.O21.ANTT";
+            // 
             // homeservices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -643,6 +698,8 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -698,5 +755,10 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label14;
     }
 }
