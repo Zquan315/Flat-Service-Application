@@ -1,4 +1,6 @@
-﻿namespace Flat_Services_Application
+﻿using System.Collections.Generic;
+
+namespace Flat_Services_Application
 {
     internal class Data
     {
@@ -11,5 +13,6 @@
         public string objects { get; set; }
         public int status { get; set; }
         public int remember { get; set; }
+        
     }
 }

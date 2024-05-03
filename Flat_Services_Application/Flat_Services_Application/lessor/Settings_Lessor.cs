@@ -16,5 +16,22 @@ namespace Flat_Services_Application.lessor
         {
             InitializeComponent();
         }
+
+        private void Setting_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Home_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbChangePass_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ChangePass c = new ChangePass();
+            c.Show();
+        }
     }
 }
