@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homechating));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelCenterChat = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -475,8 +476,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1774, 1029);
             this.Controls.Add(this.panelCenter);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "homechating";
-            this.Text = "homechating";
+            this.Text = "Flat Services";
             this.Load += new System.EventHandler(this.homechating_Load);
             this.panel1.ResumeLayout(false);
             this.panelCenterChat.ResumeLayout(false);

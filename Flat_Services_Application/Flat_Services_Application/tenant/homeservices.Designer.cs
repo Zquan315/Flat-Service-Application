@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeservices));
             this.panelCenter = new System.Windows.Forms.Panel();
             this.panelCenterServices = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -681,8 +682,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1774, 1029);
             this.Controls.Add(this.panelCenter);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "homeservices";
-            this.Text = "homeservices";
+            this.Text = "Flat Services";
             this.Load += new System.EventHandler(this.homeservices_Load);
             this.panelCenter.ResumeLayout(false);
             this.panelCenterServices.ResumeLayout(false);

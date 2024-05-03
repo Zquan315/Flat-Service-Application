@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeinformation));
             this.panelCenterInformation = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -638,8 +639,9 @@
             this.Controls.Add(this.panelCenterInformation);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "homeinformation";
-            this.Text = "homeinformation";
+            this.Text = "Flat Services";
             this.Load += new System.EventHandler(this.homeinformation_Load);
             this.panelCenterInformation.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

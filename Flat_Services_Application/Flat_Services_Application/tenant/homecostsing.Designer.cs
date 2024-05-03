@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homecostsing));
             this.panelCenterCosts = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -653,8 +654,9 @@
             this.Controls.Add(this.panelCenterCosts);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "homecostsing";
-            this.Text = "homecostsing";
+            this.Text = "Flat Services";
             this.Load += new System.EventHandler(this.homecostsing_Load);
             this.panelCenterCosts.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
