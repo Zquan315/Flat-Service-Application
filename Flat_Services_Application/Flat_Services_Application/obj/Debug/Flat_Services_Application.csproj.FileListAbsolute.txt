@@ -246,3 +246,32 @@ Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\pj\Flat-Service-Appl
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\pj\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Ser.BB17834D.Up2Date
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\pj\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
 Q:\TO_CONG_QUAN\University_Documents\Nam 2\HK2\LapTrinhMang\pj\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.App.config
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.AssemblyReference.cache
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ChangePass.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.changePass_forgot.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.ForgotPass.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Add_Flat_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Charge_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Chat_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Edit_Flat_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Flat_Management_2.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Flat_Management_Lessor_1.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.tenant.Home_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Payment_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Requests_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.lessor.Settings_Lessor.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Login.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Properties.Resources.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.Sign_up.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.tenant.differencesfee.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.tenant.homechating.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.tenant.homecostsing.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.tenant.homeinformation.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.tenant.homenavigation.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.tenant.homeservices.resources
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.GenerateResource.cache
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe.licenses
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.csproj.CoreCompileInputs.cache
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.exe
+D:\ProjectAll\bocuoc\Flat-Service-Application\Flat_Services_Application\Flat_Services_Application\obj\Debug\Flat_Services_Application.pdb
