@@ -219,7 +219,6 @@ namespace Flat_Services_Application
                 else
                 {
                     lbps2.Text = "";
-
                 }
                 if (cbRemember.Checked)
                 {
