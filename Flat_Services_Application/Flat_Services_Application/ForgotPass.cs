@@ -27,7 +27,7 @@ namespace Flat_Services_Application
         public ForgotPass(String s)
         {
             InitializeComponent();
-            tbPhone.Text = s;
+            tbMail.Text = s;
         }
         private void btnReturn_Click(object sender, EventArgs e)
         {
@@ -40,9 +40,9 @@ namespace Flat_Services_Application
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             //neu sdt ton tai, otp gui ve may dung thi dang hap thanh cong
-            if (tbOTP.Text == "" || tbPhone.Text == "")
+            if (tbOTP.Text == "" || tbMail.Text == "")
                 return;
-            if(!IsNumberPhone(tbPhone.Text))
+            if(!IsNumberPhone(tbMail.Text))
             {
                 lb1.Text = "!";
                 lb1.ForeColor = Color.Red;
@@ -53,13 +53,13 @@ namespace Flat_Services_Application
 
             
             this.Hide();
-            changePass_forgot c = new changePass_forgot(tbPhone.Text);
+            changePass_forgot c = new changePass_forgot(tbMail.Text);
             c.Show();
         }
 
         private void tbPhone_TextChanged(object sender, EventArgs e)
         {
-            if (tbPhone.Text == "")
+            if (tbMail.Text == "")
             {
                 lb1.Text = "*";
                 lb1.ForeColor = Color.Red;

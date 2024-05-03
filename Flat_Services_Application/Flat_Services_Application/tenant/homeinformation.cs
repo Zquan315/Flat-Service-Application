@@ -19,7 +19,7 @@ namespace Flat_Services_Application.tenant
         }
 
         Modify modify;
-        roomate rooMate;
+        roomate roomMate;
 
         private void label11_Click(object sender, EventArgs e)
         {
@@ -100,7 +100,23 @@ namespace Flat_Services_Application.tenant
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            string idRoomate = this.textBox3.Text; //textBox3 la txbIDNumberRoomate
+            string name = this.txbName.Text;
+            string sex = (rbMale.Checked ? rbMale.Text : rbFemale.Text);
+            DateTime dateOfBirth = this.datetime.Value;
+            string idVehical = this.txbVehical.Text;
+            string addRess = this.txbAddress.Text;
+            string phoneNum = this.txbPhoneNumber.Text;
+            string idTenant = this.txbIDNumberTenant.Text;
+            roomMate = new roomate(idRoomate, name, sex, dateOfBirth, idVehical, addRess, phoneNum, idTenant);
+            if(modify.insert(roomMate))
+            {
+                dataGridView1.DataSource = modify.getAllRoomate();
+            }
+            else
+            {
+                MessageBox.Show("Error: " + "Can not insert data!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

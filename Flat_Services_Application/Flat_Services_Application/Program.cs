@@ -17,7 +17,7 @@ namespace Flat_Services_Application
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new homenavigation());
+            Application.Run(new Login());
         }
     }
 }

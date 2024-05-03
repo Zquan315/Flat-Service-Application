@@ -116,6 +116,7 @@ namespace Flat_Services_Application
                      date = dt.date,
                      objects = dt.objects,
                      status = dt.status,
+                     remember = dt.remember
                 };
                 FirebaseResponse ud = await client.UpdateAsync("Account Lessor/" + data_phone,data);
                 Data result = ud.ResultAs<Data>();
@@ -138,6 +139,7 @@ namespace Flat_Services_Application
                         date = dt.date,
                         objects = dt.objects,
                         status = dt.status,
+                        remember = dt.remember
                     };
                    
                     FirebaseResponse ud = await client.UpdateAsync("Account Tenant/" + data_phone, data);
