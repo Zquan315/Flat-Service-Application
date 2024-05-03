@@ -33,7 +33,7 @@ namespace Flat_Services_Application.connectDB
         public bool insert(roomate roomMate)
         {
             SqlConnection sqlConnection = Connection.GetConnection();
-            string query = "INSERT INTO [dbo].[Roomate] VALUES (@ID_number_roomate,@Full_name,@Sex,@Date_of_birth,@ID_vehical,@Home_address,@Phone_number_roomate,@ID_number_tenant)";
+            string query = "INSERT INTO [Flat_Service_Application5].[dbo].[Roomate] VALUES (@ID_number_roomate,@Full_name,@Sex,@Date_of_birth,@ID_vehical,@Home_address,@Phone_number_roomate,@ID_number_tenant)";
             try
             {
                 sqlConnection.Open();
