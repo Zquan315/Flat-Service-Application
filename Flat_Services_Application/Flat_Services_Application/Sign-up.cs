@@ -121,8 +121,8 @@ namespace Flat_Services_Application
             { 
                 lb8.Text = "";
             }
-            
-            
+
+
             //Them du lieu vao database
             var data = new Data
             {
@@ -134,7 +134,8 @@ namespace Flat_Services_Application
                 date = tbDate.Text,
                 objects = cbbObj.Text,
                 status = 0,
-                remember = 0
+                remember = 0,
+               
             };
 
             FirebaseResponse respond = await client.GetAsync("Account Lessor/" + tbPhone.Text);

@@ -16,5 +16,10 @@ namespace Flat_Services_Application.lessor
         {
             InitializeComponent();
         }
+
+        private void Chat_Lessor_Load(object sender, EventArgs e)
+        {
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)41))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+        }
     }
 }

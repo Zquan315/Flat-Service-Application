@@ -184,7 +184,7 @@ namespace Flat_Services_Application
                     Data result = ud.ResultAs<Data>();
                 }
                 this.Hide();
-                homenavigation h = new homenavigation();
+                homenavigation h = new homenavigation(tbPhoneNumber.Text);
                 h.StartPosition = FormStartPosition.CenterScreen;
                 h.Show();
 
@@ -321,6 +321,44 @@ namespace Flat_Services_Application
         private void btnReturn_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private async void click_rmb(object sender, EventArgs e)
+        {
+            try
+            {
+                if (rdbtnLessor.Checked)
+                {
+
+                    FirebaseResponse Response = await client.GetAsync("Account Lessor/" + tbPhoneNumber.Text);
+                    if (Response.Body != "null")
+                    {
+                        Data obj = Response.ResultAs<Data>();
+                        if (obj.remember == 1)
+                        {
+                            tbPass.Text = obj.pass;
+                        }
+                    }
+
+                }
+
+                if (rdbtnTenant.Checked)
+                {
+
+                    FirebaseResponse Response = await client.GetAsync("Account Tenant/" + tbPhoneNumber.Text);
+                    if (Response.Body != "null")
+                    {
+                        Data obj = Response.ResultAs<Data>();
+                        if (obj.remember == 1)
+                        {
+                            tbPass.Text = obj.pass;
+                        }
+                    }
+
+
+                }
+            }
+            catch { return; }
         }
     }
 }

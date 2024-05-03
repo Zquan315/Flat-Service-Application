@@ -16,7 +16,11 @@ namespace Flat_Services_Application.tenant
         {
             InitializeComponent();
         }
-
+        public differencesfee(string s)
+        {
+            InitializeComponent();
+            tbAccount.Text = s;
+        }
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -31,7 +35,7 @@ namespace Flat_Services_Application.tenant
         private void homeBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            homenavigation homenavigation = new homenavigation();
+            homenavigation homenavigation = new homenavigation(tbAccount.Text);
             homenavigation.StartPosition = FormStartPosition.CenterScreen;
             homenavigation.Show();
         }
@@ -39,7 +43,7 @@ namespace Flat_Services_Application.tenant
         private void costsBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            homecostsing homecostsing = new homecostsing();
+            homecostsing homecostsing = new homecostsing(tbAccount.Text);
             homecostsing.StartPosition = FormStartPosition.CenterScreen;
             homecostsing.Show();
         }
@@ -47,7 +51,7 @@ namespace Flat_Services_Application.tenant
         private void infoBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            homeinformation homeinformation = new homeinformation();   
+            homeinformation homeinformation = new homeinformation(tbAccount.Text);   
             homeinformation.StartPosition = FormStartPosition.CenterScreen;
             homeinformation.Show();
         }
@@ -55,7 +59,7 @@ namespace Flat_Services_Application.tenant
         private void servicesBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            homeservices homeservices = new homeservices(); 
+            homeservices homeservices = new homeservices(tbAccount.Text); 
             homeservices.StartPosition = FormStartPosition.CenterScreen;
             homeservices.Show();
         }
@@ -63,7 +67,7 @@ namespace Flat_Services_Application.tenant
         private void chatBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            homechating homechating = new homechating();
+            homechating homechating = new homechating(tbAccount.Text);
             homechating.StartPosition = FormStartPosition.CenterScreen;
             homechating.Show();
         }
@@ -71,7 +75,7 @@ namespace Flat_Services_Application.tenant
         private void differBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            differencesfee differencesfee = new differencesfee();
+            differencesfee differencesfee = new differencesfee(tbAccount.Text);
             differencesfee.StartPosition = FormStartPosition.CenterScreen;
             differencesfee.Show();  
         }
@@ -79,6 +83,22 @@ namespace Flat_Services_Application.tenant
         private void panel3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Are you sure to log out?", "Log out", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                Login l = new Login();
+                l.Show();
+            }
+            else
+            {
+                this.Show();
+            } 
+            
+                
         }
     }
 }
