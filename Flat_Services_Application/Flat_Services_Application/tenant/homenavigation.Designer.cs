@@ -31,6 +31,11 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,36 +48,31 @@
             this.costsBtn = new System.Windows.Forms.Button();
             this.homeBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panelCenterHome = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panelCenterHome.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -109,14 +109,61 @@
             this.panel6.Size = new System.Drawing.Size(1414, 160);
             this.panel6.TabIndex = 1;
             // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label4);
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.comboBox1);
+            this.panel7.Controls.Add(this.textBox10);
+            this.panel7.Location = new System.Drawing.Point(849, 6);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(553, 151);
+            this.panel7.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(66, 126);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(481, 25);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "© 2024 - Copyright by Group 5 NT106.O21.ANTT";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(3, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(208, 32);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Phone Number";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(299, 49);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(233, 33);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(299, 3);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(233, 31);
+            this.textBox10.TabIndex = 0;
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold);
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(6, 42);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(195, 70);
+            this.label11.Size = new System.Drawing.Size(200, 68);
             this.label11.TabIndex = 3;
             this.label11.Text = "Home";
             // 
@@ -165,7 +212,7 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(0, 760);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(360, 120);
@@ -178,7 +225,7 @@
             // logoutBtn
             // 
             this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.logoutBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutBtn.Location = new System.Drawing.Point(0, 909);
             this.logoutBtn.Name = "logoutBtn";
             this.logoutBtn.Size = new System.Drawing.Size(360, 120);
@@ -190,7 +237,7 @@
             // chatBtn
             // 
             this.chatBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.chatBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chatBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chatBtn.Location = new System.Drawing.Point(0, 640);
             this.chatBtn.Name = "chatBtn";
             this.chatBtn.Size = new System.Drawing.Size(360, 120);
@@ -203,7 +250,7 @@
             // servicesBtn
             // 
             this.servicesBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.servicesBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.servicesBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.servicesBtn.Location = new System.Drawing.Point(0, 520);
             this.servicesBtn.Name = "servicesBtn";
             this.servicesBtn.Size = new System.Drawing.Size(360, 120);
@@ -216,7 +263,7 @@
             // infoBtn
             // 
             this.infoBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.infoBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infoBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.infoBtn.Location = new System.Drawing.Point(0, 400);
             this.infoBtn.Name = "infoBtn";
             this.infoBtn.Size = new System.Drawing.Size(360, 120);
@@ -229,7 +276,7 @@
             // costsBtn
             // 
             this.costsBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.costsBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.costsBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.costsBtn.Location = new System.Drawing.Point(0, 280);
             this.costsBtn.Name = "costsBtn";
             this.costsBtn.Size = new System.Drawing.Size(360, 120);
@@ -243,7 +290,7 @@
             // 
             this.homeBtn.BackColor = System.Drawing.Color.White;
             this.homeBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homeBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homeBtn.Location = new System.Drawing.Point(0, 160);
             this.homeBtn.Name = "homeBtn";
             this.homeBtn.Size = new System.Drawing.Size(360, 120);
@@ -263,6 +310,18 @@
             this.panel3.Size = new System.Drawing.Size(360, 160);
             this.panel3.TabIndex = 0;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // panel5
+            // 
+            this.panel5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(360, 160);
+            this.panel5.TabIndex = 1;
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // groupBox1
             // 
@@ -311,52 +370,75 @@
             this.panelCenterHome.TabIndex = 6;
             this.panelCenterHome.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
             // 
-            // panel7
+            // groupBox6
             // 
-            this.panel7.Controls.Add(this.label4);
-            this.panel7.Controls.Add(this.label13);
-            this.panel7.Controls.Add(this.comboBox1);
-            this.panel7.Controls.Add(this.textBox10);
-            this.panel7.Location = new System.Drawing.Point(849, 6);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(553, 151);
-            this.panel7.TabIndex = 6;
+            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.groupBox6.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
+            this.groupBox6.ForeColor = System.Drawing.Color.White;
+            this.groupBox6.Location = new System.Drawing.Point(443, 128);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(534, 568);
+            this.groupBox6.TabIndex = 4;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Memo";
             // 
-            // label13
+            // groupBox2
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(3, 6);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(208, 32);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "Phone Number";
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
+            this.groupBox2.Location = new System.Drawing.Point(18, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1384, 116);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Header";
             // 
-            // comboBox1
+            // label5
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(299, 49);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(233, 33);
-            this.comboBox1.TabIndex = 1;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(6, 46);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(180, 49);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Search:";
             // 
-            // textBox10
+            // textBox2
             // 
-            this.textBox10.Location = new System.Drawing.Point(299, 3);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(233, 31);
-            this.textBox10.TabIndex = 0;
+            this.textBox2.Location = new System.Drawing.Point(192, 54);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(585, 47);
+            this.textBox2.TabIndex = 0;
             // 
-            // label4
+            // groupBox5
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(66, 126);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(481, 25);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "© 2024 - Copyright by Group 5 NT106.O21.ANTT";
+            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.groupBox5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Screenshot_2024_05_03_003525;
+            this.groupBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox5.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
+            this.groupBox5.ForeColor = System.Drawing.Color.White;
+            this.groupBox5.Location = new System.Drawing.Point(983, 128);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(419, 568);
+            this.groupBox5.TabIndex = 4;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Download App:";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
+            this.groupBox4.ForeColor = System.Drawing.Color.White;
+            this.groupBox4.Location = new System.Drawing.Point(18, 128);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(419, 568);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Manual";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // groupBox3
             // 
@@ -373,32 +455,15 @@
             this.groupBox3.Text = "Contact Us:";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // groupBox4
+            // label7
             // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
-            this.groupBox4.ForeColor = System.Drawing.Color.White;
-            this.groupBox4.Location = new System.Drawing.Point(18, 128);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(419, 568);
-            this.groupBox4.TabIndex = 3;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Manual";
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(18, 6);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1384, 116);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Header";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(6, 111);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(555, 38);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Gmail: flatservicesapp@gmail.com";
             // 
             // label6
             // 
@@ -410,76 +475,11 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Facebook: https://www.facebook.com/2uaan1ee/";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(6, 111);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(555, 38);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Gmail: flatservicesapp@gmail.com";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.groupBox5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Screenshot_2024_05_03_003525;
-            this.groupBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.groupBox5.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
-            this.groupBox5.ForeColor = System.Drawing.Color.White;
-            this.groupBox5.Location = new System.Drawing.Point(983, 128);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(419, 568);
-            this.groupBox5.TabIndex = 4;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Download App:";
-            // 
-            // panel5
-            // 
-            this.panel5.BackgroundImage = global::Flat_Services_Application.Properties.Resources.Icon;
-            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(360, 160);
-            this.panel5.TabIndex = 1;
-            this.panel5.Click += new System.EventHandler(this.panel5_Click);
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
-            // 
             // directorySearcher1
             // 
             this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(192, 54);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(585, 47);
-            this.textBox2.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(6, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(180, 49);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Search:";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
-            this.groupBox6.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold);
-            this.groupBox6.ForeColor = System.Drawing.Color.White;
-            this.groupBox6.Location = new System.Drawing.Point(443, 128);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(534, 568);
-            this.groupBox6.TabIndex = 4;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Memo";
             // 
             // homenavigation
             // 
@@ -497,17 +497,17 @@
             this.panel4.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panelCenterHome.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -10,7 +10,8 @@ namespace Flat_Services_Application.connectDB
 {
     internal class Modify
     {
-        SqlDataAdapter dataAdapter;
+        SqlDataAdapter dataAdapter; //truy xuat du lieu vao bang
+        SqlCommand sqlCommand; //truy van va cap nhat du lieu
         public Modify()
         {
 
@@ -18,7 +19,7 @@ namespace Flat_Services_Application.connectDB
         public DataTable getAllRoomate()
         {
             DataTable dataTable = new DataTable();
-            string query = "SELECT * FROM [Flat_Service_Application3].[dbo].[Roomate]";
+            string query = "SELECT * FROM [Flat_Service_Application5].[dbo].[Roomate]";
             using (SqlConnection sqlConnection = Connection.GetConnection())
             {
                 sqlConnection.Open();
@@ -28,5 +29,7 @@ namespace Flat_Services_Application.connectDB
             }
             return dataTable;
         }
+
+        
     }
 }

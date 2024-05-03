@@ -45,6 +45,11 @@
             this.panelCenter = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -59,11 +64,6 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelCenterChat.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -72,9 +72,9 @@
             this.panelCenter.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -258,6 +258,53 @@
             this.panel4.Size = new System.Drawing.Size(1414, 160);
             this.panel4.TabIndex = 0;
             // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label4);
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.comboBox1);
+            this.panel7.Controls.Add(this.textBox10);
+            this.panel7.Location = new System.Drawing.Point(846, 6);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(553, 151);
+            this.panel7.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(72, 129);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(481, 25);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "© 2024 - Copyright by Group 5 NT106.O21.ANTT";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(3, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(208, 32);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Phone Number";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(299, 49);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(233, 33);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(299, 3);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(233, 31);
+            this.textBox10.TabIndex = 0;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -301,7 +348,7 @@
             // button6
             // 
             this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(0, 760);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(360, 120);
@@ -314,7 +361,7 @@
             // logoutBtn
             // 
             this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.logoutBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutBtn.Location = new System.Drawing.Point(0, 909);
             this.logoutBtn.Name = "logoutBtn";
             this.logoutBtn.Size = new System.Drawing.Size(360, 120);
@@ -325,7 +372,7 @@
             // chatBtn
             // 
             this.chatBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.chatBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chatBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chatBtn.Location = new System.Drawing.Point(0, 640);
             this.chatBtn.Name = "chatBtn";
             this.chatBtn.Size = new System.Drawing.Size(360, 120);
@@ -338,7 +385,7 @@
             // servicesBtn
             // 
             this.servicesBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.servicesBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.servicesBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.servicesBtn.Location = new System.Drawing.Point(0, 520);
             this.servicesBtn.Name = "servicesBtn";
             this.servicesBtn.Size = new System.Drawing.Size(360, 120);
@@ -351,7 +398,7 @@
             // infoBtn
             // 
             this.infoBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.infoBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infoBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.infoBtn.Location = new System.Drawing.Point(0, 400);
             this.infoBtn.Name = "infoBtn";
             this.infoBtn.Size = new System.Drawing.Size(360, 120);
@@ -364,7 +411,7 @@
             // costsBtn
             // 
             this.costsBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.costsBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.costsBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.costsBtn.Location = new System.Drawing.Point(0, 280);
             this.costsBtn.Name = "costsBtn";
             this.costsBtn.Size = new System.Drawing.Size(360, 120);
@@ -378,7 +425,7 @@
             // 
             this.homeBtn.BackColor = System.Drawing.Color.White;
             this.homeBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeBtn.Font = new System.Drawing.Font("Century", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homeBtn.Font = new System.Drawing.Font("Century Gothic", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homeBtn.Location = new System.Drawing.Point(0, 160);
             this.homeBtn.Name = "homeBtn";
             this.homeBtn.Size = new System.Drawing.Size(360, 120);
@@ -422,53 +469,6 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.label4);
-            this.panel7.Controls.Add(this.label13);
-            this.panel7.Controls.Add(this.comboBox1);
-            this.panel7.Controls.Add(this.textBox10);
-            this.panel7.Location = new System.Drawing.Point(846, 6);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(553, 151);
-            this.panel7.TabIndex = 6;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(3, 6);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(208, 32);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "Phone Number";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(299, 49);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(233, 33);
-            this.comboBox1.TabIndex = 1;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(299, 3);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(233, 31);
-            this.textBox10.TabIndex = 0;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(72, 129);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(481, 25);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "© 2024 - Copyright by Group 5 NT106.O21.ANTT";
-            // 
             // homechating
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -488,10 +488,10 @@
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

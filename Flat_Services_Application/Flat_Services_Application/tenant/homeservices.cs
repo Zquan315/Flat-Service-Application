@@ -83,5 +83,10 @@ namespace Flat_Services_Application.tenant
             homechating.StartPosition = FormStartPosition.CenterScreen;
             homechating.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
