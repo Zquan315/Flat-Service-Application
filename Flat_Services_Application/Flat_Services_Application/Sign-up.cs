@@ -133,7 +133,8 @@ namespace Flat_Services_Application
                 ID = tbID.Text,
                 date = tbDate.Text,
                 objects = cbbObj.Text,
-                status = 0
+                status = 0,
+                remember = 0
             };
 
             FirebaseResponse respond = await client.GetAsync("Account Lessor/" + tbPhone.Text);

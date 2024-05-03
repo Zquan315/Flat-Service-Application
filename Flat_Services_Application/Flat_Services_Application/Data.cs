@@ -10,5 +10,6 @@
         public string date { get; set; }
         public string objects { get; set; }
         public int status { get; set; }
+        public int remember { get; set; }
     }
 }
